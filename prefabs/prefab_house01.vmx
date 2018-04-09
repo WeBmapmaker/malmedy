@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "44"
+	"mapversion" "47"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "44"
+	"mapversion" "47"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -92,6 +92,82 @@ world
 			"material" "MAPS/WALL/BAS_EXTERIOR_01"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 512] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 244 161"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "4928"
+		side
+		{
+			"id" "1132"
+			"plane" "(-240 176 320) (-240 192 320) (48 192 320)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1131"
+			"plane" "(-240 192 192) (-240 176 192) (48 176 192)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1130"
+			"plane" "(-240 176 192) (-240 192 192) (-240 192 320)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1129"
+			"plane" "(48 192 192) (48 176 192) (48 176 320)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1128"
+			"plane" "(-240 192 192) (48 192 192) (48 192 320)"
+			"material" "MAPS/WALL/BAS_EXTERIOR_01"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 512] 0.125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1127"
+			"plane" "(48 176 192) (-240 176 192) (-240 176 320)"
+			"material" "MAPS/MARKET/MARKET_PLASTER_01_BLEND"
+			"uaxis" "[-1 0 0 -98.3101] 0.141"
+			"vaxis" "[0 0 -1 337.702] 0.141"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1701,165 +1777,6 @@ world
 	}
 	solid
 	{
-		"id" "2"
-		side
-		{
-			"id" "1090"
-			"plane" "(-512 -512 0) (-512 512 0) (512 512 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-			dispinfo
-			{
-				"power" "3"
-				"startposition" "[-512 -512 0]"
-				"flags" "0"
-				"elevation" "0"
-				"subdiv" "0"
-				normals
-				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-				}
-				distances
-				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
-				}
-				offsets
-				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-				}
-				offset_normals
-				{
-					"row0" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row1" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row2" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row3" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row4" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row5" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row6" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row7" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row8" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-				}
-				alphas
-				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
-				}
-				triangle_tags
-				{
-					"row0" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row1" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row2" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row3" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row4" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row5" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row6" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row7" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-				}
-				allowed_verts
-				{
-					"10" "-1 -1 -1 -1 -1 -1 -1 -1 -1 -1"
-				}
-			}
-		}
-		side
-		{
-			"id" "1089"
-			"plane" "(-512 512 -64) (-512 -512 -64) (512 -512 -64)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1088"
-			"plane" "(-512 -512 -64) (-512 512 -64) (-512 512 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1087"
-			"plane" "(512 512 -64) (512 -512 -64) (512 -512 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1086"
-			"plane" "(-512 512 -64) (512 512 -64) (512 512 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "1085"
-			"plane" "(512 -512 -64) (-512 -512 -64) (-512 -512 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 119 236"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "41"
 		side
 		{
@@ -2472,7 +2389,7 @@ world
 		side
 		{
 			"id" "270"
-			"plane" "(-240 192 320) (64 192 320) (64 176 320)"
+			"plane" "(48 176 320) (48 192 320) (64 192 320)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2483,7 +2400,7 @@ world
 		side
 		{
 			"id" "269"
-			"plane" "(-240 176 192) (64 176 192) (64 192 192)"
+			"plane" "(48 192 192) (48 176 192) (64 176 192)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -2494,7 +2411,7 @@ world
 		side
 		{
 			"id" "268"
-			"plane" "(-240 192 192) (-240 192 320) (-240 176 320)"
+			"plane" "(48 176 192) (48 192 192) (48 192 320)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2505,7 +2422,7 @@ world
 		side
 		{
 			"id" "267"
-			"plane" "(64 176 192) (64 176 320) (64 192 320)"
+			"plane" "(64 192 192) (64 176 192) (64 176 320)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2516,7 +2433,7 @@ world
 		side
 		{
 			"id" "266"
-			"plane" "(64 192 192) (64 192 320) (-240 192 320)"
+			"plane" "(48 192 192) (64 192 192) (64 192 320)"
 			"material" "MAPS/WALL/BAS_EXTERIOR_01"
 			"uaxis" "[-1 0 0 -960] 0.25"
 			"vaxis" "[0 0 -1 512] 0.125"
@@ -2527,7 +2444,7 @@ world
 		side
 		{
 			"id" "265"
-			"plane" "(-240 176 192) (-240 176 320) (64 176 320)"
+			"plane" "(64 176 192) (48 176 192) (48 176 320)"
 			"material" "MAPS/DUNKIRK/DUNK_TILE_B"
 			"uaxis" "[-1 0 0 506.553] 0.141"
 			"vaxis" "[0 0 -1 337.702] 0.141"
@@ -3675,7 +3592,8 @@ entity
 	"id" "3295"
 	"classname" "prop_static"
 	"angles" "0 270 -180"
-	"fademindist" "-1"
+	"fademaxdist" "1024"
+	"fademindist" "1024"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_beams_128_8.mdl"
 	"renderamt" "255"
@@ -3759,7 +3677,8 @@ entity
 	"id" "3458"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_props/prop_bathroom_pipes_a.mdl"
 	"renderamt" "255"
@@ -3780,7 +3699,8 @@ entity
 	"id" "3470"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_props/prop_bathroom_pipes_a.mdl"
 	"renderamt" "255"
@@ -3801,7 +3721,8 @@ entity
 	"id" "3478"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_props/prop_bathroom_toilet_c.mdl"
 	"renderamt" "255"
@@ -4100,7 +4021,8 @@ entity
 	"classname" "prop_static"
 	"angles" "15.5 313 0"
 	"disableshadows" "1"
-	"fademindist" "-1"
+	"fademaxdist" "512"
+	"fademindist" "512"
 	"fadescale" "1"
 	"model" "models/props/de_inferno/hr_i/inferno_broom/inferno_broom.mdl"
 	"renderamt" "255"
@@ -4143,7 +4065,8 @@ entity
 	"id" "3812"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_02.mdl"
 	"renderamt" "255"
@@ -4165,7 +4088,8 @@ entity
 	"id" "3835"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_mat.mdl"
 	"renderamt" "255"
@@ -4187,7 +4111,8 @@ entity
 	"id" "3854"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_mat.mdl"
 	"renderamt" "255"
@@ -4209,7 +4134,8 @@ entity
 	"id" "3862"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_sheet_b.mdl"
 	"renderamt" "255"
@@ -4231,7 +4157,8 @@ entity
 	"id" "3881"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_sheet_c.mdl"
 	"renderamt" "255"
@@ -4253,7 +4180,8 @@ entity
 	"id" "3900"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_pillow_01.mdl"
 	"renderamt" "255"
@@ -4275,7 +4203,8 @@ entity
 	"id" "3935"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_pillow_01.mdl"
 	"renderamt" "255"
@@ -4297,7 +4226,8 @@ entity
 	"id" "4172"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_02.mdl"
 	"renderamt" "255"
@@ -4319,7 +4249,8 @@ entity
 	"id" "4176"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_mat.mdl"
 	"renderamt" "255"
@@ -4341,7 +4272,8 @@ entity
 	"id" "4180"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_sheet_d.mdl"
 	"renderamt" "255"
@@ -4363,7 +4295,8 @@ entity
 	"id" "4184"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_pillow_01.mdl"
 	"renderamt" "255"
@@ -4385,7 +4318,8 @@ entity
 	"id" "4188"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_sheet_e.mdl"
 	"renderamt" "255"
@@ -4407,7 +4341,8 @@ entity
 	"id" "4192"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_mat.mdl"
 	"renderamt" "255"
@@ -4429,7 +4364,8 @@ entity
 	"id" "4196"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_barracks_bed_pillow_01.mdl"
 	"renderamt" "255"
@@ -4451,7 +4387,8 @@ entity
 	"id" "4265"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"fademindist" "-1"
+	"fademaxdist" "1024"
+	"fademindist" "1024"
 	"fadescale" "1"
 	"model" "models/static_props/prop_bathroom_sink_a.mdl"
 	"renderamt" "255"
@@ -4745,6 +4682,94 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "4931"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props/de_inferno/hr_i/inferno_paintings/inferno_paintings_01.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-176 16 275.614"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "4958"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props/de_inferno/hr_i/inferno_paintings/inferno_paintings_04.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-64 64 260.796"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "5030"
+	"classname" "prop_static"
+	"angles" "0 165 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/static_furniture/locker01_single02.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "219.805 118.748 64"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
+	}
+}
+entity
+{
+	"id" "5164"
+	"classname" "prop_static"
+	"angles" "-71.5 90 90"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/weapons/w_kar98k.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"origin" "224 124.126 88.8805"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10000]"
 	}
 }
 entity
@@ -5983,7 +6008,8 @@ entity
 	"id" "1008"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_props/prop_kitchenshelves_01d.mdl"
 	"renderamt" "255"
@@ -6067,7 +6093,8 @@ entity
 	"id" "1101"
 	"classname" "prop_static"
 	"angles" "0 270 -180"
-	"fademindist" "-1"
+	"fademaxdist" "1024"
+	"fademindist" "1024"
 	"fadescale" "1"
 	"model" "models/static_fittings/prop_beams_128_8.mdl"
 	"renderamt" "255"
@@ -6411,7 +6438,8 @@ entity
 	"id" "1994"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"fademindist" "-1"
+	"fademaxdist" "3100"
+	"fademindist" "3100"
 	"fadescale" "1"
 	"model" "models/props_furniture/dresser1.mdl"
 	"renderamt" "255"
@@ -6432,7 +6460,8 @@ entity
 	"id" "2021"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"fademindist" "-1"
+	"fademaxdist" "3100"
+	"fademindist" "3100"
 	"fadescale" "1"
 	"model" "models/props_italian/winerack_small.mdl"
 	"renderamt" "255"
@@ -6721,7 +6750,8 @@ entity
 	"id" "2806"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"fademindist" "-1"
+	"fademaxdist" "1600"
+	"fademindist" "1600"
 	"fadescale" "1"
 	"model" "models/static_props/prop_kitchenshelves_01e.mdl"
 	"renderamt" "255"
