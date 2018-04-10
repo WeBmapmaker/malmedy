@@ -1,0 +1,8 @@
+"patch"
+{
+	"include"		"materials/maps/stone/stonewall008.vmt"
+	"replace"
+	{
+		"$envmap"		"maps/doi_bastogne/c1312_-2244_200"
+	}
+}

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "7"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -120,7 +120,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[56.9806 -84 15.3024]"
+				"startposition" "[56.9812 -84 15.3036]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -190,7 +190,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-39.6175 -84 41.1864]"
+				"startposition" "[-39.6184 -84 41.1869]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -260,7 +260,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-38.6041 -84 45.0567]"
+				"startposition" "[-38.605 -84 45.0563]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -330,7 +330,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-39.6187 -84 41.1878]"
+				"startposition" "[-39.6164 -84 41.1876]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -400,7 +400,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-39.6105 68 41.1846]"
+				"startposition" "[-39.6104 68 41.1852]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -470,7 +470,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-39.6182 -84 41.1836]"
+				"startposition" "[-39.6152 -84 41.1914]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -584,7 +584,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/trash01"
-	"sides" "97"
+	"sides" "216"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-44.757 -44.7455 0"
@@ -1209,7 +1209,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/custom/legionvolontaire"
-	"sides" "142"
+	"sides" "201"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-22.6435 -25.4679 0"
@@ -1261,7 +1261,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/custom/vousmettraalepee"
-	"sides" ""
+	"sides" "224"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-23.3053 -30.9999 0"

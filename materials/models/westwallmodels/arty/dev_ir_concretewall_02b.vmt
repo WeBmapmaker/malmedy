@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/road/ir_asphalt01"
+//	"$bumpmap" "maps/concrete/ir_asphalt_01_normal"
+	"$surfaceprop" "asphalt"
+	"%keywords" "dev"
+		
+	$detail detail\ir_generic_01
+	$detailscale 03
+	$detailblendfactor 1
+	$detailblendmode 0
+	
+}

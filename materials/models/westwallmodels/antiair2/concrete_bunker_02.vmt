@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/concrete/concrete_bunker_02"
+	"$bumpmap" "maps/concrete/concrete_bunker_02_norm"
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2,ww2"
+	
+	"$phong" "1"	//enables phong highlights
+	"$phongexponent" "80.0" //how sharp the highlight is 1=soft 100=sharp
+	"$phongmaskcontrastbrightness" "[1.5]" //increases the contrast of the phong mask
+	"$phongamount" "[1 1 1 1]" //rgba values that can boost, tint or lower highlight strength
+}

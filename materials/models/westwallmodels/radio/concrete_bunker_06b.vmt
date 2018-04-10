@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/concrete/concrete_bunker_06"
+	"$bumpmap" "maps/concrete/concrete_bunker_norm"
+	"$detail"                 "detail/edge_detail_01"
+	"$detailscale"            "[4 1 1]"
+	"$detailblendfactor"      "1"
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2,ww2"
+}

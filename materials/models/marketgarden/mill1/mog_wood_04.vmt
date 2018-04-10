@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/market/mog_wood_04"
+	"$bumpmap" "maps/market/mog_wood_n"
+	
+	"$detail"				"detail/wood_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.5"
+	
+	"$surfaceprop" "wood"
+	"%keywords" "ins2, wood, market"
+	
+	"$phong" "1"	//enables phong highlights
+	"$phongexponent" "80.0" //how sharp the highlight is 1=soft 100=sharp
+	"$phongmaskcontrastbrightness" "[1.1]" //increases the contrast of the phong mask
+	"$phongamount" "[2 2 2 1]" //rgba values that can boost, tint or lower highlight strength
+}

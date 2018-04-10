@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" 	"maps\plaster\bas_plaster_03"
+	"$bumpmap" 		"maps\plaster\bas_plaster_03_norm"
+	"$surfaceprop" 	"plaster"
+	"%keywords" 	"ins2,doi"
+}

@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/roof/rooftiles002"
+	"$bumpmap" "maps/roof/rooftiles002_normal"
+	"$surfaceprop" "ceiling_tile"
+	"%keywords" "ins2" 
+}

@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	"$basetexture" 	"maps/revolt/rev_ceiling_01"
+	"$bumpmap" 		"maps/revolt/rev_ceiling_01_n"
+	
+	"$detail" 				"detail/plaster_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.5"
+	
+	"$surfaceprop" 	"concrete"
+	"%keywords"		"ins2, plaster, revolt, ceiling, interior"
+	
+	"$phong" "1"	//enables phong highlights
+	"$phongexponent" "80.0" //how sharp the highlight is 1=soft 100=sharp
+	"$phongmaskcontrastbrightness" "[1.5]" //increases the contrast of the phong mask
+	"$phongamount" "[1 1 1 1]" //rgba values that can boost, tint or lower highlight strength
+}

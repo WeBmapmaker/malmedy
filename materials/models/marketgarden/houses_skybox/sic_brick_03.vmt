@@ -1,0 +1,14 @@
+"vertexlitgeneric"
+       
+{
+    	"$basetexture" 	"maps/brick/sic_brick_03"
+	"$bumpmap" 	"maps/brick/sic_brick_01_n"
+	"$envmapmask" 	"maps/brick/sic_brick_01_spec"
+	"$surfaceprop" 	"brick"
+	"$envmap" 			"env_cubemap"
+	"$envmapsaturation" 		".2"
+	"$envmapcontrast" 			".85"
+	"$envmaptint" 			"[.1 .1 .1]"
+
+	"%keywords" "ins2,doi"
+}

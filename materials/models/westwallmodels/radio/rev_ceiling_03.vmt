@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" 	"maps/revolt/rev_ceiling_03"
+	"$bumpmap" 		"maps/revolt/rev_ceiling_03_n"
+	
+	"$detail" 				"detail/plaster_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.5"
+	
+	"$surfaceprop" 	"concrete"
+	"%keywords"		"ins2, plaster, revolt, ceiling, interior"
+}

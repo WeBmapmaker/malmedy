@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/trim/concretestair002"
+	"$bumpmap" "maps/trim/concretestair001_ssbump"
+        "$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" "0.5"
+	"$envmapcontrast" "0.9"
+	"$envmaptint" "[0.3 0.2 0.1]"
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2,stairs"
+}

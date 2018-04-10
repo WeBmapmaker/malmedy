@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/market/mog_trims_01"
+	"$bumpmap" 	   "maps/market/mog_trims_01_n"
+	
+	"$detail"				"detail/plaster_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.2"
+	
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2, plaster, market"
+}

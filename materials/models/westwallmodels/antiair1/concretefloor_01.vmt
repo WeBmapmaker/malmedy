@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/ramadi/concretefloor_d"
+	//"$bumpmap" "maps/ramadi/tilefloor_01_n"
+        
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2, ramadi"
+}

@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/roof/bas_roof_02"
+	"$surfaceprop" "concrete"
+
+
+	"%keywords" 			"roof"
+}

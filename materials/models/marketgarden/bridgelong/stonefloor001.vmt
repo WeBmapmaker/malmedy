@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/stone/stonefloor001"
+//	"$envmap" "env_cubemap"
+//	"$envmapmask" "maps/stone/stonefloor001_spec"
+//	$normalmapalphaenvmapmask	1
+	"$bumpmap"	"maps/stone/stonefloor001_ssbump"
+	"$surfaceprop" "stone"
+	"%keywords" "ins2,chechnya,ssbump" 
+}

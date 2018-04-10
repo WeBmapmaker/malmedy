@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/concrete/concrete_burnt01"
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2" 
+}

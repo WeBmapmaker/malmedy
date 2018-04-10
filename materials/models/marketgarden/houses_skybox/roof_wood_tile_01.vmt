@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+       
+{
+     	"$basetexture" "maps/roof/roof_wood_tile_01"
+	"$bumpmap" "maps/roof/roof_wood_tile_01_n"
+	"$surfaceprop" "wood"
+	"%keywords" "ins2,doi"
+}

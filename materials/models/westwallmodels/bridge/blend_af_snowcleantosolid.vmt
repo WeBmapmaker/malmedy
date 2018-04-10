@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" 	"maps/terrain/af_snow_clean"	
+	"$bumpmap"	"maps/terrain/af_rock_interior_norm"
+
+
+
+	"$surfaceprop" "snow"
+	
+	"%keywords" "ins2,afghanistan,blend" 
+	
+}

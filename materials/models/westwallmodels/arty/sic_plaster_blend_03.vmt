@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/plaster/sic_plaster_02"
+	
+	
+	
+	"$bumpmap"  "maps/plaster/sic_plaster_02_n"
+	
+
+	"$detail" 				"detail\noise_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.05"
+	
+	$surfaceprop plaster
+
+}

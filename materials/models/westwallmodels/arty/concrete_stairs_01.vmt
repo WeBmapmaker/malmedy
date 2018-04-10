@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps/concrete/concrete_stairs_01"
+	"$bumpmap" "maps/concrete/concrete_stairs_01_normal"
+	
+	"$surfaceprop" "concrete"
+//	"$detail"	"detail/concrete_smooth"
+//	"$detailblendfactor" "1"
+//	"$detailblendmode"  "0"
+//	"$detailscale"	"4"
+	"%keywords" "ins2" 
+}
