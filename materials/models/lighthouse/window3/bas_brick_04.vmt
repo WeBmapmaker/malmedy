@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "maps\brick\bas_brick_04"
+	"$bumpmap" "maps\brick\bas_brick_04_norm"
+	"$surfaceprop" "concrete"
+	"%keywords" "ins2,doi"
+}

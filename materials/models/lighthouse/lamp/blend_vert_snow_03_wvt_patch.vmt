@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture"		"maps/verticality/vert_snow_01"
+	"$bumpmap"		"maps/verticality/vert_snow_03_n"
+	"$surfaceprop"		"dirt"
+	"%keywords"		"ins2,afghanistan,blend,verticality"
+}

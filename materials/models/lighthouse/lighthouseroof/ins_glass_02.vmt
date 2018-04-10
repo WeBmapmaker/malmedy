@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "glass/ins_glass_02"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "glass"
+	"$envmaptint" "[.2 .15 .15]"
+	"$translucent" 1
+// required for dx6+7 specular
+//	"$multipass" 1
+	"$nocull" 1
+	"$crackmaterial" "glass/ins_glass_02break"
+}

@@ -1,0 +1,13 @@
+"vertexlitgeneric"
+{
+	"$basetexture" 	"maps/market/mog_wood_02"
+	"$bumpmap" 	"maps/market/mog_wood_n"
+
+
+	"$detail"				"detail/wood_detail_01"
+	"$detailscale" 			"[ 8 8 ]"
+	"$detailblendfactor" 	"0.5"
+	
+	"$surfaceprop" "wood"
+	"%keywords" "ins2, wood, market"
+}
