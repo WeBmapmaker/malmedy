@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/ukulele/props_misc/small_well_grass"
+	"$nocull"			1
+	//"$translucent"			1
+	"$alphatest"	1
+	"$model"	1
+}

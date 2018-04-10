@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/ukulele/props_plants/corn"
+	"$model" 1
+	"$alphatest" 1
+	"$nocull" 1
+}

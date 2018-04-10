@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/ukulele/props_misc/gas_pump_color_b"
+	"$selfIllum"			0
+	"$translucent"			1
+}

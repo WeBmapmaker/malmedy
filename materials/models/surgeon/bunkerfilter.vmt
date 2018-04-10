@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{ 
+	"$baseTexture" "models/surgeon/bunkerFilter"
+	"$model" 1
+	"$surfaceprop" "metal"
+} 

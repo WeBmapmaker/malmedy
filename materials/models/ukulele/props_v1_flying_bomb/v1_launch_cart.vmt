@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/ukulele/props_v1_flying_bomb/v1_launch_cart"
+	"$model"				1
+}

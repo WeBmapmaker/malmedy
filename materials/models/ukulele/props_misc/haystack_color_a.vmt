@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/ukulele/props_misc/haystack_color_a"
+	"$model"				1
+}

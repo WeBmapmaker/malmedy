@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/ukulele/props_radio/radio"
+	"$envmap" "env_cubemap"
+	"$envmapmask" 	"models/ukulele/props_radio/radio_spec"
+	"$envmapsaturation" .4 .4 .4 
+	"$model"				1
+}

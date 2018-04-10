@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"nolod" "1"
+	"nomip" "1"
+	"nonice" "1"
+	"nocompress" "1" 
+	"$alphatest" 1
+	"$baseTexture" "models/surgeon/barbedwire"
+	"$model" 1
+	"$surfaceprop" "plaster"
+	"$nocull" 1
+	"$nodecal" 1
+
+
+}

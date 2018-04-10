@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{ 
+	"$baseTexture" "models/surgeon/matador"
+	"$model" 1
+	"$surfaceprop" "metal"
+} 

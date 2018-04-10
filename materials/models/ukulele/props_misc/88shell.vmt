@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models/ukulele/props_misc/88shell"
+	"$envmap" "env_cubemap"
+	"$basealphaenvmapmask" 1
+	"$envmapsaturation" 0.9
+	"$envmaptint" "{ 131 120 61}"
+}

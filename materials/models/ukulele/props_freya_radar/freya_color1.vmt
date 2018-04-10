@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$color"				"[1 1 1]"
+	"$baseTexture"			"models/ukulele/props_freya_radar/freya_color1"
+	"$selfIllum"			0
+	"$translucent"			0
+	"$alpha"				1
+}
