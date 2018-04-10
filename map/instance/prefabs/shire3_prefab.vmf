@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "10"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -803,7 +803,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "maps/overlay/france_sign_07"
-	"sides" "231"
+	"sides" "256"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-81.5376 -83.1194 0"
@@ -962,7 +962,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/hr_decals/plaster_stain_6"
-	"sides" "233"
+	"sides" "258"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-224 -96 0"
@@ -991,7 +991,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "maps/decal/moss_decal_01"
-	"sides" "232 230"
+	"sides" "255 257"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-128 -32 0"
