@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "46"
+	"mapversion" "47"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "46"
+	"mapversion" "47"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10087,7 +10087,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0.5"
 	"BasisNormal" "1 0 0"
-	"BasisOrigin" "480 58 280"
+	"BasisOrigin" "480 58.0503 280"
 	"BasisU" "0 0.999962 0.00872653"
 	"BasisV" "0 -0.00872653 0.999962"
 	"EndU" "1"
@@ -10101,7 +10101,7 @@ entity
 	"uv1" "-90 121 0"
 	"uv2" "90 121 0"
 	"uv3" "90 -121 0"
-	"origin" "480 58 280"
+	"origin" "480 58.0503 280"
 	editor
 	{
 		"color" "80 150 225"
@@ -10255,7 +10255,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "-0 -1 -0"
-	"BasisOrigin" "-356.283 -160 160.486"
+	"BasisOrigin" "-356.283 -159.95 160.486"
 	"BasisU" "1 0 0"
 	"BasisV" "0 0 1"
 	"EndU" "1"
@@ -10269,7 +10269,7 @@ entity
 	"uv1" "-39.664 32.4863 0"
 	"uv2" "39.664 32.4863 0"
 	"uv3" "39.664 -32.4863 0"
-	"origin" "-356.283 -160 160.486"
+	"origin" "-356.283 -159.95 160.486"
 	editor
 	{
 		"color" "80 150 225"
@@ -10284,7 +10284,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "-0 -1 -0"
-	"BasisOrigin" "-216 -160 160"
+	"BasisOrigin" "-216 -159.95 160"
 	"BasisU" "1 0 0"
 	"BasisV" "0 0 1"
 	"EndU" "1"
@@ -10298,7 +10298,7 @@ entity
 	"uv1" "-39.664 32.4863 0"
 	"uv2" "39.664 32.4863 0"
 	"uv3" "39.664 -32.4863 0"
-	"origin" "-216 -160 160"
+	"origin" "-216 -159.95 160"
 	editor
 	{
 		"color" "80 150 225"
@@ -10313,7 +10313,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "-0 -1 -0"
-	"BasisOrigin" "-16 -160 160"
+	"BasisOrigin" "-16 -159.95 160"
 	"BasisU" "1 0 0"
 	"BasisV" "0 0 1"
 	"EndU" "1"
@@ -10327,7 +10327,7 @@ entity
 	"uv1" "-39.664 32.4863 0"
 	"uv2" "39.664 32.4863 0"
 	"uv3" "39.664 -32.4863 0"
-	"origin" "-16 -160 160"
+	"origin" "-16 -159.95 160"
 	editor
 	{
 		"color" "80 150 225"
@@ -10342,7 +10342,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 91.5 0"
 	"BasisNormal" "-0.62932 -0.777146 0"
-	"BasisOrigin" "-477.275 29.0444 32"
+	"BasisOrigin" "-477.275 29.0947 32"
 	"BasisU" "-0.777146 0.62932 0"
 	"BasisV" "0 0 -1"
 	"EndU" "0"
@@ -10356,7 +10356,7 @@ entity
 	"uv1" "-128 32 0"
 	"uv2" "128 32 0"
 	"uv3" "128 -32 0"
-	"origin" "-477.275 29.0444 32"
+	"origin" "-477.275 29.0947 32"
 	editor
 	{
 		"color" "80 150 225"
@@ -10394,7 +10394,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "116.951 -145.914 128"
+	"BasisOrigin" "116.951 -145.864 128"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"
@@ -10404,11 +10404,11 @@ entity
 	"sides" "2706"
 	"StartU" "0"
 	"StartV" "1"
-	"uv0" "64 -64 0"
-	"uv1" "64 64 0"
-	"uv2" "-64 64 0"
-	"uv3" "-64 -64 0"
-	"origin" "116.951 -145.914 128"
+	"uv0" "-64 -64 0"
+	"uv1" "-64 64 0"
+	"uv2" "64 64 0"
+	"uv3" "64 -64 0"
+	"origin" "116.951 -145.864 128"
 	editor
 	{
 		"color" "80 150 225"
@@ -10423,7 +10423,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "127.094 -22.8196 3.05176e-005"
+	"BasisOrigin" "127.094 -22.7692 3.05176e-005"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"
@@ -10437,7 +10437,7 @@ entity
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
 	"uv3" "64 -64 0"
-	"origin" "127.094 -22.8196 3.05176e-005"
+	"origin" "127.094 -22.7692 3.05176e-005"
 	editor
 	{
 		"color" "80 150 225"
@@ -10567,7 +10567,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "2 0 0"
 	"BasisNormal" "0 1 0"
-	"BasisOrigin" "342.28 224 50.6549"
+	"BasisOrigin" "342.28 224.05 50.6549"
 	"BasisU" "0.999391 0 -0.0348995"
 	"BasisV" "-0.0348995 0 -0.999391"
 	"EndU" "0"
@@ -10581,7 +10581,7 @@ entity
 	"uv1" "-25.1303 21.9922 0"
 	"uv2" "25.1303 21.9922 0"
 	"uv3" "25.1303 -21.9922 0"
-	"origin" "342.28 224 50.6549"
+	"origin" "342.28 224.05 50.6549"
 	editor
 	{
 		"color" "80 150 225"
@@ -10596,7 +10596,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "94.7581 243.874 3.05176e-005"
+	"BasisOrigin" "94.7581 243.925 3.05176e-005"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"
@@ -10606,11 +10606,11 @@ entity
 	"sides" "2106"
 	"StartU" "0"
 	"StartV" "1"
-	"uv0" "64 -64 0"
-	"uv1" "64 64 0"
-	"uv2" "-64 64 0"
-	"uv3" "-64 -64 0"
-	"origin" "94.7581 243.874 3.05176e-005"
+	"uv0" "-64 -64 0"
+	"uv1" "-64 64 0"
+	"uv2" "64 64 0"
+	"uv3" "64 -64 0"
+	"origin" "94.7581 243.925 3.05176e-005"
 	editor
 	{
 		"color" "80 150 225"
@@ -10625,7 +10625,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "385.698 -170.018 3.05176e-005"
+	"BasisOrigin" "385.698 -169.968 3.05176e-005"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"
@@ -10639,7 +10639,7 @@ entity
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
 	"uv3" "64 -64 0"
-	"origin" "385.698 -170.018 3.05176e-005"
+	"origin" "385.698 -169.968 3.05176e-005"
 	editor
 	{
 		"color" "80 150 225"
@@ -10654,7 +10654,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-157.471 -94.9191 3.05176e-005"
+	"BasisOrigin" "-157.471 -94.8688 3.05176e-005"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"
@@ -10668,7 +10668,7 @@ entity
 	"uv1" "-64 64 0"
 	"uv2" "64 64 0"
 	"uv3" "64 -64 0"
-	"origin" "-157.471 -94.9191 3.05176e-005"
+	"origin" "-157.471 -94.8688 3.05176e-005"
 	editor
 	{
 		"color" "80 150 225"

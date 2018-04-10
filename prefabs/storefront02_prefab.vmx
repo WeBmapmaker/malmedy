@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "15"
+	"mapversion" "16"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "15"
+	"mapversion" "16"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -43,7 +43,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[219.617 -288.206 340]"
+				"startposition" "[219.617 -288.207 340]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -414,7 +414,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[91.6171 -288.206 228]"
+				"startposition" "[91.6171 -288.207 228]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -484,7 +484,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[91.6171 -288.206 224]"
+				"startposition" "[91.6171 -288.203 224]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -565,7 +565,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[91.6171 -288.206 224]"
+				"startposition" "[91.6171 -288.207 224]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -705,7 +705,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[91.6171 511.794 224]"
+				"startposition" "[91.6172 511.794 224]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2395,7 +2395,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/milflr002"
-	"sides" "343"
+	"sides" "452"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-64 -64 0"
@@ -2424,7 +2424,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/milflr002"
-	"sides" "343"
+	"sides" "452"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-64 -64 0"
@@ -2453,7 +2453,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/milflr002"
-	"sides" "343"
+	"sides" "452"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-64 -64 0"
@@ -2482,7 +2482,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/milflr002"
-	"sides" "343"
+	"sides" "452"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-64 -64 0"
@@ -2574,7 +2574,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/infwndwa"
-	"sides" "343"
+	"sides" "452"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-32 -32 0"
@@ -2603,7 +2603,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "maps/overlay/france_sign_11"
-	"sides" "343"
+	"sides" "452"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-128 -16 0"
