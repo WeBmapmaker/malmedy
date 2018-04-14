@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "108"
+	"mapversion" "109"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "108"
+	"mapversion" "109"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34802,7 +34802,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "maps/decals/rauchen_verboten"
-	"sides" "3301"
+	"sides" "3301 8077"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-128 -64 0"
