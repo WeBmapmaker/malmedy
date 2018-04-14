@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "25"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "25"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -202,7 +202,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[446.835 1386.61 -4]"
+				"startposition" "[446.836 1386.61 -4]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -6015,7 +6015,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-60.0001 1800 0]"
+				"startposition" "[-60 1800 0]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -6120,7 +6120,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-60.0001 1800 -46]"
+				"startposition" "[-60 1800 -46]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -6214,7 +6214,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-80.0001 1800 -46]"
+				"startposition" "[-80 1800 -46]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -6308,7 +6308,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-60.0001 1664 -46]"
+				"startposition" "[-60 1664 -46]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -6402,7 +6402,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-60.0001 1800 -46]"
+				"startposition" "[-60 1800 -46]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -16740,7 +16740,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/decalpapers01"
-	"sides" "484"
+	"sides" "683"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-31.3635 -31.1571 0"
@@ -16769,7 +16769,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/decalpapers02"
-	"sides" "484"
+	"sides" "683"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-31.3635 -31.1571 0"
@@ -17512,7 +17512,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "overlays/debrisdirt005"
-	"sides" "484"
+	"sides" "683"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-128 -128 0"
