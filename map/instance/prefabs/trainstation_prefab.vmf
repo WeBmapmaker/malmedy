@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "48"
+	"mapversion" "51"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "48"
+	"mapversion" "51"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -68204,4 +68204,19 @@ cameras
 cordons
 {
 	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-4134 -8842.63 -7724.32)"
+			"maxs" "(11314.6 6606 7724.32)"
+		}
+		box
+		{
+			"mins" "(13169 -635 -7724)"
+			"maxs" "(13169 -635 7724.63)"
+		}
+	}
 }
