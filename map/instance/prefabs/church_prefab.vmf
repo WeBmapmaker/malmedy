@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "119"
+	"mapversion" "120"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "119"
+	"mapversion" "120"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -408,82 +408,6 @@ world
 		{
 			"color" "174 203 0"
 			"groupid" "19990"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "20021"
-		side
-		{
-			"id" "5104"
-			"plane" "(256 320 384) (256 704 384) (320 704 384)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5103"
-			"plane" "(256 704 -24) (256 320 -24) (320 320 -24)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5102"
-			"plane" "(256 320 -24) (256 704 -24) (256 704 384)"
-			"material" "TOOLS/TOOLSHINT"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5101"
-			"plane" "(320 704 -24) (320 320 -24) (320 320 384)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 -36.077] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5100"
-			"plane" "(320 320 -24) (256 320 -24) (256 320 384)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5099"
-			"plane" "(256 704 -24) (320 704 -24) (320 704 384)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 -26] 0.2"
-			"vaxis" "[0 0 -1 -59] 0.2"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 229 242"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
