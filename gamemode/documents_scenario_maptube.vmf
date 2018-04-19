@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "121"
+	"mapversion" "134"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "121"
+	"mapversion" "134"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -516,6 +516,110 @@ world
 }
 entity
 {
+	"id" "3160"
+	"classname" "trigger_multiple"
+	"filtername" "filter_security"
+	"origin" "-814 0 80"
+	"parentname" "objective_tube"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"targetname" "trigger_tube"
+	"wait" "1"
+	connections
+	{
+		"OnStartTouch" "objective_tubeSetParent!activator0-1"
+		"OnStartTouch" "objective_tubeSetParentAttachmentflamethrower0.05-1"
+		"OnStartTouch" "objective_tubeSetParentAttachmentMaintainOffsetflamethrower0.1-1"
+		"OnEndTouch" "objective_tubeClearParent0-1"
+		"OnStartTouch" "!activatorAddOutputtargetname tube_10-1"
+		"OnEndTouch" "!activatorAddOutputtargetname tube_00-1"
+	}
+	solid
+	{
+		"id" "3161"
+		side
+		{
+			"id" "526"
+			"plane" "(-824 -20 87.9998) (-824 20 87.9998) (-804 20 87.9998)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.0012207] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "525"
+			"plane" "(-824 20 72) (-824 -20 72) (-804 -20 72)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.0012207] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "524"
+			"plane" "(-824 -20 72.0001) (-824 20 72.0001) (-824 20 88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "523"
+			"plane" "(-804 20 72.0001) (-804 -20 72.0001) (-804 -20 88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "522"
+			"plane" "(-824 20 72.0001) (-804 20 72.0001) (-804 20 88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.0012207] 0.25"
+			"vaxis" "[0 0 -1 24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "521"
+			"plane" "(-804 -20 72.0001) (-823.998 -20 72.0001) (-824 -20 88)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.0012207] 0.25"
+			"vaxis" "[0 0 -1 24] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
 	"id" "2500"
 	"classname" "point_controlpoint"
 	"default_owner" "0"
@@ -537,10 +641,13 @@ entity
 	"origin" "-816 -380 116"
 	"spawnflags" "64"
 	"StartDisabled" "0"
-	"targetname" "detector_crate"
+	"targetname" "detector_tube"
 	"wait" "1"
 	connections
 	{
+		"OnStartTouch" "trigger_tubeKill0-1"
+		"OnStartTouch" "objective_tubeClearParent0-1"
+		"OnStartTouch" "objective_tubeKill10-1"
 		"OnStartTouch" "cp_asetteam20-1"
 	}
 	solid
@@ -631,7 +738,7 @@ entity
 {
 	"id" "2551"
 	"classname" "filter_activator_name"
-	"filtername" "trigger_crate"
+	"filtername" "tube_1"
 	"Negated" "Allow entities that match criteria"
 	"targetname" "filter_a"
 	"origin" "-792 -384 160"
@@ -1307,111 +1414,9 @@ entity
 }
 entity
 {
-	"id" "2263"
-	"classname" "trigger_multiple"
-	"filtername" "filter_security"
-	"origin" "-814.92 0 86.89"
-	"parentname" "objective_crate"
-	"spawnflags" "4097"
-	"StartDisabled" "0"
-	"targetname" "trigger_crate"
-	"wait" "1"
-	connections
-	{
-		"OnStartTouch" "objective_crateSetParent!activator0-1"
-		"OnStartTouch" "objective_crateSetParentAttachmentflamethrower0.05-1"
-		"OnStartTouch" "objective_crateSetParentAttachmentMaintainOffsetflamethrower0.1-1"
-		"OnEndTouch" "objective_crateClearParent0-1"
-	}
-	solid
-	{
-		"id" "1619"
-		side
-		{
-			"id" "502"
-			"plane" "(-834.918 -20 97.8943) (-834.918 20 97.8943) (-794.918 20 97.8943)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -4.32715] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "501"
-			"plane" "(-834.918 20 75.8943) (-834.918 -20 75.8943) (-794.918 -20 75.8943)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -4.32715] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "500"
-			"plane" "(-834.918 -20 75.8943) (-834.918 20 75.8943) (-834.918 20 97.8943)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 47.5773] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "499"
-			"plane" "(-794.918 20 75.8943) (-794.918 -20 75.8943) (-794.918 -20 97.8943)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 47.5773] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "498"
-			"plane" "(-834.918 20 75.8943) (-794.918 20 75.8943) (-794.918 20 97.8943)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -4.32715] 0.25"
-			"vaxis" "[0 0 -1 47.5773] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "497"
-			"plane" "(-794.918 -20 75.8943) (-834.918 -20 75.8943) (-834.918 -20 97.8943)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 -4.32715] 0.25"
-			"vaxis" "[0 0 -1 47.5773] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
-	}
-}
-entity
-{
 	"id" "805"
 	"classname" "prop_dynamic"
-	"angles" "0 89 0"
+	"angles" "0 90 0"
 	"DisableBoneFollowers" "0"
 	"disableflashlight" "0"
 	"disablereceiveshadows" "0"
@@ -1447,7 +1452,7 @@ entity
 	"spawnflags" "256"
 	"StartDisabled" "0"
 	"SuppressAnimSounds" "0"
-	"targetname" "objective_crate"
+	"targetname" "objective_tube"
 	"origin" "-814.918 0 75.8943"
 	editor
 	{
