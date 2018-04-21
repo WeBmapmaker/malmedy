@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "25"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "25"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1849,6 +1849,7 @@ entity
 	"id" "5936"
 	"classname" "prop_static"
 	"angles" "0 22 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_short.mdl"
@@ -1870,6 +1871,7 @@ entity
 	"id" "6263"
 	"classname" "prop_static"
 	"angles" "0 81 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_long.mdl"
@@ -1891,6 +1893,7 @@ entity
 	"id" "6267"
 	"classname" "prop_static"
 	"angles" "0 63 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_long.mdl"
@@ -1912,6 +1915,7 @@ entity
 	"id" "6311"
 	"classname" "prop_static"
 	"angles" "0 90 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_long.mdl"
@@ -2290,6 +2294,7 @@ entity
 	"id" "4119"
 	"classname" "prop_static"
 	"angles" "0 38.5 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_long.mdl"
@@ -2355,6 +2360,7 @@ entity
 	"id" "3780"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_switch_02.mdl"
@@ -2376,6 +2382,7 @@ entity
 	"id" "3792"
 	"classname" "prop_static"
 	"angles" "0 20.5 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_long.mdl"
@@ -2478,30 +2485,10 @@ entity
 }
 entity
 {
-	"id" "3594"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_06.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "409.722 -97.0746 2.00879"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
-	}
-}
-entity
-{
 	"id" "1268"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_long.mdl"
@@ -2611,6 +2598,7 @@ entity
 	"id" "1988"
 	"classname" "prop_static"
 	"angles" "0 0 0"
+	"disableshadows" "1"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/static_props/track_long.mdl"

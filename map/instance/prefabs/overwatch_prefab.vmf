@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,19 +20,34 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "ramadisky"
 	"timeofday" "5"
+	group
+	{
+		"id" "167"
+		editor
+		{
+			"color" "141 238 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "238"
+	"classname" "func_ladder"
 	solid
 	{
 		"id" "166"
 		side
 		{
-			"id" "306"
+			"id" "318"
 			"plane" "(39.1845 -51.2913 103) (2.18434 -50.3668 103) (2.85321 -36.2781 99)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
@@ -43,7 +58,7 @@ world
 		}
 		side
 		{
-			"id" "305"
+			"id" "317"
 			"plane" "(38.7775 -67.6942 -65.7079) (1.7964 -66.7786 -65.7088) (1.12181 -80.8727 -61.6997)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
@@ -54,7 +69,7 @@ world
 		}
 		side
 		{
-			"id" "304"
+			"id" "316"
 			"plane" "(38.1001 -81.7909 -61.6973) (1.12753 -80.8673 -61.7002) (2.18453 -50.3613 103)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[-1 0.0348995 0 13.6012] 0.25"
@@ -65,7 +80,7 @@ world
 		}
 		side
 		{
-			"id" "303"
+			"id" "315"
 			"plane" "(1.79906 -66.7815 -65.7072) (38.7796 -67.6979 -65.7062) (39.8591 -37.1973 99)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[-1 0.0348995 0 13.6012] 0.25"
@@ -76,7 +91,7 @@ world
 		}
 		side
 		{
-			"id" "302"
+			"id" "314"
 			"plane" "(1.12467 -80.87 -61.7012) (1.80797 -66.7739 -65.7095) (2.85607 -36.2754 99)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
@@ -87,7 +102,7 @@ world
 		}
 		side
 		{
-			"id" "301"
+			"id" "313"
 			"plane" "(38.7746 -67.6968 -65.709) (38.0997 -81.8019 -61.6973) (39.1818 -51.2884 103)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
@@ -98,20 +113,17 @@ world
 		}
 		editor
 		{
-			"color" "0 241 146"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
-	group
+	editor
 	{
-		"id" "167"
-		editor
-		{
-			"color" "141 238 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity

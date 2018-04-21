@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "56"
+	"mapversion" "59"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "256"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "56"
+	"mapversion" "59"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10047,7 +10047,7 @@ world
 		side
 		{
 			"id" "1869"
-			"plane" "(200 -1836 -32) (200 -512 -32) (948 -512 -32)"
+			"plane" "(200 -1836 -32) (200 -514 -32) (948 -514 -32)"
 			"material" "FOY/FLOOR/BLEND_SNOW_FLOOR04"
 			"uaxis" "[-1 0 0 528] 0.25"
 			"vaxis" "[0 1 0 -912] 0.25"
@@ -10057,7 +10057,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[948 -512 -32]"
+				"startposition" "[948 -514 -32]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -10141,7 +10141,7 @@ world
 		side
 		{
 			"id" "1868"
-			"plane" "(200 -512 -114) (200 -1836 -114) (948 -1836 -114)"
+			"plane" "(200 -514 -114) (200 -1836 -114) (948 -1836 -114)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 1 0 -16] 0.25"
@@ -10152,7 +10152,7 @@ world
 		side
 		{
 			"id" "1867"
-			"plane" "(948 -512 -114) (948 -1836 -114) (948 -1836 -32)"
+			"plane" "(948 -514 -114) (948 -1836 -114) (948 -1836 -32)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 16] 0.25"
 			"vaxis" "[0 0 -1 -8] 0.25"
@@ -10163,7 +10163,7 @@ world
 		side
 		{
 			"id" "1866"
-			"plane" "(200 -1836 -114) (200 -512 -114) (200 -512 -32)"
+			"plane" "(200 -1836 -114) (200 -514 -114) (200 -514 -32)"
 			"material" "FOY/FLOOR/BLEND_SNOW_FLOOR04"
 			"uaxis" "[0 -1 0 912] 0.25"
 			"vaxis" "[0 0 -1 56] 0.25"
@@ -10185,7 +10185,7 @@ world
 		side
 		{
 			"id" "1864"
-			"plane" "(200 -512 -114) (948 -512 -114) (948 -512 -32)"
+			"plane" "(200 -514 -114) (948 -514 -114) (948 -514 -32)"
 			"material" "FOY/FLOOR/BLEND_SNOW_FLOOR04"
 			"uaxis" "[-1 0 0 496] 0.25"
 			"vaxis" "[0 0 -1 56] 0.25"
@@ -53488,27 +53488,6 @@ entity
 }
 entity
 {
-	"id" "35661"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "1356.46 246.321 24.0088"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "35673"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -61521,27 +61500,6 @@ entity
 }
 entity
 {
-	"id" "27732"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "627.218 -1532.27 233.009"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "27830"
 	"classname" "prop_static"
 	"angles" "0 271 0"
@@ -63120,132 +63078,6 @@ entity
 }
 entity
 {
-	"id" "11034"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "36.7849 -57.3752 131.259"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "11240"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "48 -224 230.009"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "12382"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "612.702 106 56"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "12398"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "611.326 -196.772 230.009"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "12402"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "602.982 -70.5848 131.259"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
-	"id" "12406"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "594 14 110"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "13203"
 	"classname" "prop_static"
 	"angles" "-90 0 0"
@@ -63494,27 +63326,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -3768]"
-	}
-}
-entity
-{
-	"id" "13519"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "745.387 -254.688 230.009"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity
@@ -64336,28 +64147,6 @@ entity
 }
 entity
 {
-	"id" "7284"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "511.861 267.806 0.00878525"
-	editor
-	{
-		"color" "176 185 0"
-		"groupid" "8668"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "7604"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -64824,27 +64613,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10000 -2768]"
-	}
-}
-entity
-{
-	"id" "8063"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/characters/american/player_american_airborne_09.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "100.732 442.283 0.00878906"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity
