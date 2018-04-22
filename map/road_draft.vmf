@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "19"
+	"mapversion" "20"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "1"
 }
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "20"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1019,7 +1019,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-216 512 -16.1849]"
+				"startposition" "[-216 512 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1089,7 +1089,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-200 512 -16.1849]"
+				"startposition" "[-200 512 -16.1843]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1214,7 +1214,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-216 768 -16.1849]"
+				"startposition" "[-216 768 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1284,7 +1284,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-200 768 -16.1849]"
+				"startposition" "[-200 768 -16.1843]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1408,7 +1408,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-448 504 -16.1849]"
+				"startposition" "[-448 504 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1478,7 +1478,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-448 488 -16.1849]"
+				"startposition" "[-448 488 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1603,7 +1603,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-448 248 -16.1849]"
+				"startposition" "[-448 248 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1673,7 +1673,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-448 232 -16.1849]"
+				"startposition" "[-448 232 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1754,7 +1754,7 @@ world
 		}
 		editor
 		{
-			"color" "171 120 0"
+			"color" "0 211 168"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1797,7 +1797,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-200 224 -16.1849]"
+				"startposition" "[-200 224 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1867,7 +1867,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-216 224 -16.1849]"
+				"startposition" "[-216 224 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1948,7 +1948,7 @@ world
 		}
 		editor
 		{
-			"color" "171 120 0"
+			"color" "0 203 108"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1991,7 +1991,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-200 -32 -16.1849]"
+				"startposition" "[-200 -32 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2061,7 +2061,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-216 -32 -16.1849]"
+				"startposition" "[-216 -32 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2142,7 +2142,7 @@ world
 		}
 		editor
 		{
-			"color" "171 120 0"
+			"color" "0 179 196"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2185,7 +2185,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-200 -288 -16.1849]"
+				"startposition" "[-200 -288 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2255,7 +2255,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-216 -288 -16.1849]"
+				"startposition" "[-216 -288 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2336,7 +2336,7 @@ world
 		}
 		editor
 		{
-			"color" "171 120 0"
+			"color" "0 135 176"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2379,7 +2379,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-200 -544 -16.1849]"
+				"startposition" "[-200 -544 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2449,7 +2449,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-216 -544 -16.1849]"
+				"startposition" "[-216 -544 -16.1843]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2530,7 +2530,7 @@ world
 		}
 		editor
 		{
-			"color" "171 120 0"
+			"color" "0 247 136"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -2573,7 +2573,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-200 -800 -16.1849]"
+				"startposition" "[-200 -800 -16.1842]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2643,7 +2643,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-216 -800 -16.1849]"
+				"startposition" "[-216 -800 -16.1843]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2724,7 +2724,7 @@ world
 		}
 		editor
 		{
-			"color" "171 120 0"
+			"color" "0 187 232"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3525,7 +3525,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "-1 2.72478e-007 0"
-	"BasisOrigin" "-216 -669.437 1.75855"
+	"BasisOrigin" "-216 -669.437 1.75854"
 	"BasisU" "2.72478e-007 1 0"
 	"BasisV" "0 0 -1"
 	"EndU" "0"
@@ -3699,7 +3699,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "1 -2.72478e-007 0"
-	"BasisOrigin" "-200 128.594 18.809"
+	"BasisOrigin" "-200 128.595 18.809"
 	"BasisU" "2.72478e-007 1 0"
 	"BasisV" "-0 0 1"
 	"EndU" "1"
@@ -4453,7 +4453,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-168 384 64"
+	"BasisOrigin" "-168 384 0"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"
@@ -4538,15 +4538,15 @@ entity
 {
 	"id" "3032"
 	"classname" "prop_static"
-	"angles" "0 170 0"
+	"angles" "0 80 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/foliage/afghan_bush_leaves_a_single.mdl"
+	"model" "models/malmedy/foliage/afghan_bush_leaves_a_single.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-80 -624 -3.17744"
+	"origin" "-112 -624 -3.17744"
 	editor
 	{
 		"color" "255 255 0"
@@ -4559,15 +4559,15 @@ entity
 {
 	"id" "3102"
 	"classname" "prop_static"
-	"angles" "0 170 0"
+	"angles" "0 260 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/foliage/afghan_bush_leaves_b_single.mdl"
+	"model" "models/malmedy/foliage/afghan_bush_leaves_b_single.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-64 584 -3.17744"
+	"origin" "-96 584 -3.17744"
 	editor
 	{
 		"color" "255 255 0"
@@ -4845,7 +4845,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "1218.97 -345.441 -10.8933"
+	"BasisOrigin" "1218.97 -345.441 0"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"
