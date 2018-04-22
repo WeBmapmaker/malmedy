@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "6"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -165,6 +165,21 @@ world
 }
 entity
 {
+	"id" "1262"
+	"classname" "env_cubemap"
+	"cubemapsize" "0"
+	"sides" ""
+	"origin" "2.4557 19.7823 206.051"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -1768]"
+	}
+}
+entity
+{
 	"id" "73"
 	"classname" "prop_static"
 	"angles" "0 33.5 0"
@@ -175,7 +190,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "7.644 -8.2422 173"
+	"origin" "0 0 173"
 	editor
 	{
 		"color" "255 255 0"
@@ -343,7 +358,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "49.837 -81.048 71"
+	"origin" "38 -73 71"
 	editor
 	{
 		"color" "255 255 0"
@@ -406,7 +421,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "82.939 32.0014 71"
+	"origin" "75 40 71"
 	editor
 	{
 		"color" "255 255 0"
@@ -518,21 +533,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "512"
-	"classname" "env_cubemap"
-	"cubemapsize" "0"
-	"sides" ""
-	"origin" "16.499 11.5401 207.831"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-15268 -1768]"
 	}
 }
 cameras
