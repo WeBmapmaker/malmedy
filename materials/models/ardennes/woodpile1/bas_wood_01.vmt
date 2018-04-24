@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+"$basetexture" 			"maps/wood/bas_wood_01"
+//"$bumpmap" 			"maps/wood/bas_wood_01_norm"
+"$envmapmask" 			"maps/wood/bas_wood_01_spec"
+"$envmap" 			"env_cubemap"
+"$envmapsaturation" 		".2"
+"$envmapcontrast" 			".85"
+"$envmaptint" 			"[.1 .1 .1]"
+"$surfaceprop" 			"wood"
+"$nodiffusebumplighting" 		"1"
+"$detail" 				"detail\wood_detail_01"
+"$detailscale" 			"15"
+"$detailblendfactor" 		".5"
+"%keywords" 			"ins2,doi"
+}
