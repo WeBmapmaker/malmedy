@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,18 +14,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "604"
 	"classname" "worldspawn"
-	"skyname" "ramadisky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
 	"timeofday" "5"
 	solid
 	{
@@ -3695,7 +3695,7 @@ entity
 {
 	"id" "580"
 	"classname" "prop_static"
-	"angles" "-3.9594 172.413 0.754389"
+	"angles" "-3.9594 160.913 0.754389"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_furniture/piano.mdl"
@@ -3703,7 +3703,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "197.007 -452.644 -147"
+	"origin" "148 -496 -147"
 	editor
 	{
 		"color" "255 255 0"
@@ -3716,7 +3716,7 @@ entity
 {
 	"id" "584"
 	"classname" "prop_static"
-	"angles" "-2.50704 261.41 -0.0207676"
+	"angles" "-2.50704 249.91 -0.0207676"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/vehicles/citroen_45.mdl"
@@ -3724,7 +3724,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "176.036 -494.706 -207"
+	"origin" "119.064 -533.037 -207"
 	editor
 	{
 		"color" "255 255 0"
@@ -3745,7 +3745,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "359.736 -394.102 -207"
+	"origin" "336 -424 -207"
 	editor
 	{
 		"color" "255 255 0"
@@ -3779,7 +3779,7 @@ entity
 {
 	"id" "596"
 	"classname" "prop_static"
-	"angles" "0 1 0"
+	"angles" "0 299 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_furniture/piano_bench.mdl"
@@ -3787,7 +3787,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "117.624 -320.511 -192"
+	"origin" "136 -336 -192"
 	editor
 	{
 		"color" "255 255 0"
