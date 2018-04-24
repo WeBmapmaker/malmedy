@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "5"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,100 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "ramadisky"
 	"timeofday" "5"
-	solid
-	{
-		"id" "75"
-		side
-		{
-			"id" "109"
-			"plane" "(320 0 192) (160 0 320) (160 576 320)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "110"
-			"plane" "(0 576 0) (0 0 0) (320 0 0)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "111"
-			"plane" "(0 576 0) (0 576 192) (0 0 192)"
-			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
-			"uaxis" "[0 -1 0 -128] 0.15"
-			"vaxis" "[0 0 -1 0] 0.15"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "112"
-			"plane" "(320 576 192) (320 576 0) (320 0 0)"
-			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
-			"uaxis" "[0 1 0 -725.333] 0.15"
-			"vaxis" "[0 0 -1 0] 0.15"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "113"
-			"plane" "(320 576 192) (160 576 320) (0 576 192)"
-			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
-			"uaxis" "[-1 0 0 -896] 0.15"
-			"vaxis" "[0 0 -1 0] 0.15"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "114"
-			"plane" "(320 0 192) (320 0 0) (0 0 0)"
-			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
-			"uaxis" "[1 0 0 -128] 0.15"
-			"vaxis" "[0 0 -1 0] 0.15"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "0"
-			"plane" "(0 576 192) (160 576 320) (160 0 320)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 222 107"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	solid
 	{
 		"id" "79"
@@ -501,7 +414,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-16.0001 -16 180]"
+				"startposition" "[-16 -16 180]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -571,7 +484,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-16.0001 -16 176]"
+				"startposition" "[-16 -16 176]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -652,7 +565,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-16.0001 -16 176]"
+				"startposition" "[-16 -16 176]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -722,7 +635,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-16.0001 -16 176]"
+				"startposition" "[-16 -16 176]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -931,6 +844,105 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "374"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "75"
+		side
+		{
+			"id" "146"
+			"plane" "(320 0 192) (160 0 320) (160 576 320)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "145"
+			"plane" "(0 576 0) (0 0 0) (320 0 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "144"
+			"plane" "(0 576 0) (0 576 192) (0 0 192)"
+			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
+			"uaxis" "[0 -1 0 -128] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "143"
+			"plane" "(320 576 192) (320 576 0) (320 0 0)"
+			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
+			"uaxis" "[0 1 0 -725.333] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "142"
+			"plane" "(320 576 192) (160 576 320) (0 576 192)"
+			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
+			"uaxis" "[-1 0 0 -896] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "141"
+			"plane" "(320 0 192) (320 0 0) (0 0 0)"
+			"material" "FOY/WALLS/BLEND_PLASTER_BRICK_08"
+			"uaxis" "[1 0 0 -128] 0.15"
+			"vaxis" "[0 0 -1 0] 0.15"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "140"
+			"plane" "(0 576 192) (160 576 320) (160 0 320)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
