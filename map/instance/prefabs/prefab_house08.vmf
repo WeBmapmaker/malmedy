@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "5"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7763,7 +7763,7 @@ world
 		side
 		{
 			"id" "2263"
-			"plane" "(472.255 19 415) (472.255 19 298.25) (472.255 3 298.25)"
+			"plane" "(499.999 19 415) (499.999 19 298.25) (499.999 3 298.25)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 12] 0.25"
 			"vaxis" "[0 0 -1 40.998] 0.25"
@@ -7785,7 +7785,7 @@ world
 		side
 		{
 			"id" "2261"
-			"plane" "(408.255 19 415) (408.255 19 298.254) (472.255 19 298.25)"
+			"plane" "(408.254 19 415) (408.254 19 298.254) (499.997 19 298.25)"
 			"material" "MAPS/WALLPAPER/DOI_WALLPAPER_A"
 			"uaxis" "[-1 0 0 -364.88] 0.156"
 			"vaxis" "[0 0 -1 885.59] 0.156"
@@ -7796,7 +7796,7 @@ world
 		side
 		{
 			"id" "2260"
-			"plane" "(472.255 3 415) (472.255 3 298.254) (408.255 3 298.258)"
+			"plane" "(499.997 3 415) (499.997 3 298.254) (408.254 3 298.258)"
 			"material" "MAPS/MARKET/MARKET_EXTERIOR_WALL_06"
 			"uaxis" "[1 0 0 631.649] 0.156"
 			"vaxis" "[0 0 -1 886.086] 0.156"
@@ -7807,7 +7807,7 @@ world
 		side
 		{
 			"id" "2259"
-			"plane" "(408.255 19 298.253) (408.255 3 298.256) (472.255 3 298.253)"
+			"plane" "(408.254 19 298.253) (408.254 3 298.256) (500 3 298.253)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -12] 0.25"
 			"vaxis" "[1 0 0 30.9766] 0.25"
@@ -7818,7 +7818,7 @@ world
 		side
 		{
 			"id" "2258"
-			"plane" "(408.255 3 415) (408.255 19 415) (472.255 19 415)"
+			"plane" "(408.254 3 415) (408.254 19 415) (499.997 19 415)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 12] 0.25"
 			"vaxis" "[1 0 0 30.9766] 0.25"
@@ -15513,12 +15513,12 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/props_downtown/shutters_96_open.mdl"
+	"model" "models/props_downtown/shutters_96_closed.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "519.255 201 287.993"
+	"origin" "520 202 287.993"
 	editor
 	{
 		"color" "255 255 0"
