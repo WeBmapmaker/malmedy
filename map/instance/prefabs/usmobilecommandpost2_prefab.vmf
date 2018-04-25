@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "20"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7407,7 +7407,7 @@ entity
 	"id" "2147"
 	"classname" "info_overlay"
 	"BasisNormal" "-0 0 1"
-	"BasisOrigin" "583.825 -1.46519 -192"
+	"BasisOrigin" "583.825 -1.46509 -192"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 -0"
 	"EndU" "1"
@@ -7491,7 +7491,7 @@ entity
 	"id" "2183"
 	"classname" "info_overlay"
 	"BasisNormal" "-0 0 1"
-	"BasisOrigin" "-183.568 -43.351 -192"
+	"BasisOrigin" "-183.568 -43.3509 -192"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 -0"
 	"EndU" "1"
@@ -8267,29 +8267,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-10768 -10268]"
-	}
-}
-entity
-{
-	"id" "146"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/static_props/wcache_crate_02.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-166 -96 -142"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-10768 -9768]"
 	}
 }
 entity
