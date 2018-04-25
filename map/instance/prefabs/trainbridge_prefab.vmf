@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "26"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2469,7 +2469,7 @@ entity
 	"angles" "0 20.5 0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"model" "models/brest/props_docks/train_carriage_1_a.mdl"
+	"model" "models/brest/props_docks/train_carriage_1_b.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
