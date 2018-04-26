@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "76"
+	"mapversion" "78"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "76"
+	"mapversion" "78"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7019,6 +7019,105 @@ world
 }
 entity
 {
+	"id" "22740"
+	"classname" "env_soundscape"
+	"radius" "87"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "192 -196 77.6641"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "22784"
+	"classname" "env_soundscape"
+	"radius" "87"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "268 264 67.4808"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "22806"
+	"classname" "env_soundscape"
+	"radius" "87"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-224 271 67.4808"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "22828"
+	"classname" "env_soundscape"
+	"radius" "66"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-225 149 79.1756"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "22851"
+	"classname" "env_soundscape"
+	"radius" "66"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "189 -62 79.1756"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "22862"
+	"classname" "env_soundscape"
+	"radius" "85"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "268 135 79.1756"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
 	"id" "2692"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -12127,7 +12226,7 @@ entity
 {
 	"id" "14149"
 	"classname" "prop_static"
-	"angles" "0 32.5 0"
+	"angles" "0 357 0"
 	"disableshadows" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
@@ -12137,7 +12236,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "172 -153 70"
+	"origin" "162 -152 70"
 	editor
 	{
 		"color" "255 255 0"

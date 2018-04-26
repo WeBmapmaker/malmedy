@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "49"
+	"mapversion" "51"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "49"
+	"mapversion" "51"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5234,6 +5234,205 @@ world
 }
 entity
 {
+	"id" "7465"
+	"classname" "env_soundscape"
+	"radius" "68"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "101 45 57.5109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7487"
+	"classname" "env_soundscape"
+	"radius" "68"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "416 -126 57.5109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7498"
+	"classname" "env_soundscape"
+	"radius" "68"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "154 281 57.5109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7509"
+	"classname" "env_soundscape"
+	"radius" "73"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-77 -192 48.3214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7531"
+	"classname" "env_soundscape"
+	"radius" "73"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-353 -189 48.3214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7542"
+	"classname" "env_soundscape"
+	"radius" "73"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-548 -63 48.3214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7553"
+	"classname" "env_soundscape"
+	"radius" "73"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "172 385 48.3214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7564"
+	"classname" "env_soundscape"
+	"radius" "73"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "532 -127 48.3214"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7576"
+	"classname" "env_soundscape"
+	"radius" "70"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "0 44 56.2888"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "7598"
+	"classname" "env_soundscape"
+	"radius" "89"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "-77 -91 56.2888"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "7621"
+	"classname" "env_soundscape"
+	"radius" "89"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "-349 -85 56.2888"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "7632"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "-426 -64 56.2888"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
 	"id" "1105"
 	"classname" "prop_static"
 	"angles" "0 0 0"
@@ -8616,7 +8815,7 @@ entity
 	"rendercolor" "255 255 255"
 	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "268 -109.848 128"
 	editor
@@ -8638,7 +8837,7 @@ entity
 	"model" "models/props_crates/static_crate_40.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "273.302 -104 191.017"
 	editor
@@ -8823,7 +9022,7 @@ entity
 	"model" "models/props_crates/static_crate_40.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "112 -141.746 0.305328"
 	editor
@@ -8883,7 +9082,7 @@ entity
 	"rendercolor" "255 255 255"
 	"screenspacefade" "0"
 	"shadowdepthnocache" "0"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "101.647 -190.196 0.28833"
 	editor
@@ -8906,7 +9105,7 @@ entity
 	"model" "models/props_crates/static_crate_40.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "96.29 -196 63.3053"
 	editor
@@ -8968,7 +9167,7 @@ entity
 	"model" "models/props_crates/static_crate_48.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-448 -7.2165 0.256012"
 	editor
@@ -9018,7 +9217,7 @@ entity
 	"rendermode" "0"
 	"shadowcastdist" "0"
 	"shadowdepthnocache" "0"
-	"skin" "1"
+	"skin" "0"
 	"spawnflags" "0"
 	"origin" "-447.99 -8.20789 55.075"
 	editor
@@ -9057,7 +9256,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"shadowcastdist" "0"
-	"skin" "1"
+	"skin" "0"
 	"spawnflags" "0"
 	"origin" "-388.88 -20.6968 71"
 	editor
@@ -9079,7 +9278,7 @@ entity
 	"model" "models/props_crates/static_crate_64.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "-387.92 -15.6878 0.287994"
 	editor
@@ -9298,7 +9497,7 @@ entity
 	"model" "models/props_crates/static_crate_48.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "20 -116 0.256195"
 	editor
@@ -9320,7 +9519,7 @@ entity
 	"model" "models/props_crates/static_crate_64.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"skin" "1"
+	"skin" "0"
 	"solid" "6"
 	"origin" "15.2117 -194.384 -8"
 	editor

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "19"
+	"mapversion" "20"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,89 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "20"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "ramadisky"
 	"timeofday" "5"
+	solid
+	{
+		"id" "3483"
+		side
+		{
+			"id" "1053"
+			"plane" "(0 0 32) (0 512 32) (256 512 32)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1052"
+			"plane" "(0 512 -54) (0 0 -54) (256 0 -54)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1051"
+			"plane" "(0 0 -54) (0 512 -54) (0 512 32)"
+			"material" "MAPS/DOI_BASTOGNE/MAPS/STONE/STONEWALL002_1312_-2244_200"
+			"uaxis" "[0 1 0 281] 0.28"
+			"vaxis" "[0 0 -1 780] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1050"
+			"plane" "(256 512 -54) (256 0 -54) (256 0 32)"
+			"material" "MAPS/DOI_BASTOGNE/MAPS/STONE/STONEWALL002_1312_-2244_200"
+			"uaxis" "[0 1 0 -200.428] 0.28"
+			"vaxis" "[0 0 -1 -914.285] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1049"
+			"plane" "(0 512 -54) (256 512 -54) (256 512 32)"
+			"material" "MAPS/DOI_BASTOGNE/MAPS/STONE/STONEWALL002_1312_-2244_200"
+			"uaxis" "[-1 0 0 281] 0.28"
+			"vaxis" "[0 0 -1 780] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1048"
+			"plane" "(256 0 -54) (0 0 -54) (0 0 32)"
+			"material" "MAPS/DOI_BASTOGNE/MAPS/STONE/STONEWALL002_1312_-2244_200"
+			"uaxis" "[1 0 0 281] 0.28"
+			"vaxis" "[0 0 -1 780] 0.28"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 116 173"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "1372"
@@ -230,9 +306,9 @@ world
 		{
 			"id" "765"
 			"plane" "(512 512 48) (256 512 48) (256 512 32)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "CS_ITALY/HPE_CELLAR_STONE_FLOOR"
+			"uaxis" "[1 0 0 -200] 0.25"
+			"vaxis" "[0 0 -1 -323] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -241,9 +317,9 @@ world
 		{
 			"id" "766"
 			"plane" "(512 0 32) (256 0 32) (256 0 48)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "CS_ITALY/HPE_CELLAR_STONE_FLOOR"
+			"uaxis" "[1 0 0 -200] 0.25"
+			"vaxis" "[0 0 -1 -323] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3626,132 +3702,6 @@ entity
 }
 entity
 {
-	"id" "2510"
-	"classname" "prop_static"
-	"angles" "-2.50704 249.91 -0.0207676"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/vehicles/citroen_45.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "492.834 -325.187 24"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7768]"
-	}
-}
-entity
-{
-	"id" "2514"
-	"classname" "prop_static"
-	"angles" "-3.9594 160.913 0.754389"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_furniture/piano.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "521.77 -288.15 84"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8500]"
-	}
-}
-entity
-{
-	"id" "2518"
-	"classname" "prop_static"
-	"angles" "-5.71064 192.652 6.96775"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/normandy/farm/machine01.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "709.77 -216.15 24"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 7000]"
-	}
-}
-entity
-{
-	"id" "2522"
-	"classname" "prop_static"
-	"angles" "-1.2377 254.431 6.38157"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/italy/prop_bicycle_01a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "718.527 0 29"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 8000]"
-	}
-}
-entity
-{
-	"id" "2526"
-	"classname" "prop_static"
-	"angles" "0 156 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props/crate01.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "372.655 -238.758 22"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2530"
-	"classname" "prop_static"
-	"angles" "0 97.5 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props/crate01.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "332 -275.475 25"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "2618"
 	"classname" "prop_static"
 	"angles" "-1.76283 10.537 -2.42782"
@@ -3763,48 +3713,6 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"origin" "322.443 556 52"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2622"
-	"classname" "prop_static"
-	"angles" "0 88 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props/crate01.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "199.912 669.61 34.178"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "2626"
-	"classname" "prop_static"
-	"angles" "0 199 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props/crate01.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "152.045 683.419 34.178"
 	editor
 	{
 		"color" "255 255 0"

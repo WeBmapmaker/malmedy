@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "36"
+	"mapversion" "39"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "36"
+	"mapversion" "39"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3936,7 +3936,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.996 105 -276]"
+				"startposition" "[-176 105 -276]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4017,7 +4017,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 66 -268]"
+				"startposition" "[-176 66 -268]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4190,7 +4190,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.996 117 -252]"
+				"startposition" "[-176 117 -252]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4271,7 +4271,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 66 -224]"
+				"startposition" "[-176 66 -224]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4444,7 +4444,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.996 97 -317]"
+				"startposition" "[-176 97 -317]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4525,7 +4525,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 66 -317]"
+				"startposition" "[-176 66 -317]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4698,7 +4698,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.996 110 -368]"
+				"startposition" "[-176 110 -368]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -4779,7 +4779,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 66 -368]"
+				"startposition" "[-176 66 -368]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -5033,7 +5033,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 194 -368]"
+				"startposition" "[-176 194 -368]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -5287,7 +5287,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 207 -316]"
+				"startposition" "[-176 207 -316]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -5460,7 +5460,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.996 143 -242]"
+				"startposition" "[-176 143 -242]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -5541,7 +5541,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 143 -242]"
+				"startposition" "[-176 143 -242]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -5795,7 +5795,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-175.995 201 -275]"
+				"startposition" "[-176 201 -275]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -19784,6 +19784,27 @@ world
 	}
 	group
 	{
+		"id" "6875"
+		editor
+		{
+			"color" "238 171 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "6876"
+		editor
+		{
+			"color" "238 171 0"
+			"groupid" "6875"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "1053"
 		editor
 		{
@@ -19876,27 +19897,6 @@ world
 	}
 	group
 	{
-		"id" "131"
-		editor
-		{
-			"color" "238 171 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "132"
-		editor
-		{
-			"color" "238 171 0"
-			"groupid" "131"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "432"
 		editor
 		{
@@ -19915,6 +19915,316 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "7148"
+	"classname" "env_soundscape"
+	"radius" "76"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "32 -332 -300.483"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7170"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "504 -128 -312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7225"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "496 148 -312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7293"
+	"classname" "env_soundscape"
+	"radius" "64"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "616 -128 -311.192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7339"
+	"classname" "env_soundscape"
+	"radius" "64"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "508 268 -311.192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7361"
+	"classname" "env_soundscape"
+	"radius" "88"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "376 160 -240"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7465"
+	"classname" "env_soundscape"
+	"radius" "76"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-220 -364 -300.483"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7476"
+	"classname" "env_soundscape"
+	"radius" "76"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-420 -360 -300.483"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7487"
+	"classname" "env_soundscape"
+	"radius" "76"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-336 372 -300.483"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7498"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "32 -204 -312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7509"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-228 -252 -312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7520"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-408 -248 -312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7531"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-332 248 -312"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7542"
+	"classname" "env_soundscape"
+	"radius" "176"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-328 -428 -28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7610"
+	"classname" "env_soundscape"
+	"radius" "168"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-320 -160 -36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "7668"
+	"classname" "env_soundscape"
+	"radius" "176"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-308 460 -28"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "7680"
+	"classname" "env_soundscape"
+	"radius" "168"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-324 152 -36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "6877"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableX360" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "32"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/light_glow02_add_noz.vmt"
+	"renderamt" "72"
+	"rendercolor" "232 174 89"
+	"renderfx" "0"
+	"rendermode" "3"
+	"scale" "1.75"
+	"origin" "-312.21 -143.21 -118.052"
+	editor
+	{
+		"color" "238 171 0"
+		"groupid" "6876"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 9000]"
 	}
 }
 entity
@@ -22709,36 +23019,6 @@ entity
 }
 entity
 {
-	"id" "143"
-	"classname" "env_sprite"
-	"angles" "0 0 0"
-	"disablereceiveshadows" "0"
-	"disableX360" "0"
-	"framerate" "10.0"
-	"GlowProxySize" "32"
-	"HDRColorScale" "1.0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "sprites/light_glow02_add_noz.vmt"
-	"renderamt" "72"
-	"rendercolor" "232 174 89"
-	"renderfx" "0"
-	"rendermode" "3"
-	"scale" "1.75"
-	"origin" "-416.21 -131.21 -182.75"
-	editor
-	{
-		"color" "238 171 0"
-		"groupid" "132"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 9000]"
-	}
-}
-entity
-{
 	"id" "325"
 	"classname" "func_detail"
 	solid
@@ -22801,7 +23081,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -22866,7 +23146,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -22931,7 +23211,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -22996,7 +23276,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23061,7 +23341,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23126,7 +23406,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23191,7 +23471,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23256,7 +23536,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23321,7 +23601,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23386,7 +23666,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23451,7 +23731,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23516,7 +23796,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23581,7 +23861,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23646,7 +23926,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23722,7 +24002,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23798,7 +24078,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23874,7 +24154,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -23950,7 +24230,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24026,7 +24306,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24102,7 +24382,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24178,7 +24458,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24243,7 +24523,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24308,7 +24588,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24373,7 +24653,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24438,7 +24718,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24503,7 +24783,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24568,7 +24848,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24633,7 +24913,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24709,7 +24989,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24785,7 +25065,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24850,7 +25130,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -24926,7 +25206,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25002,7 +25282,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25078,7 +25358,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25154,7 +25434,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25219,7 +25499,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25284,7 +25564,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25349,7 +25629,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25414,7 +25694,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25479,7 +25759,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25544,7 +25824,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25609,7 +25889,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25674,7 +25954,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25739,7 +26019,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25804,7 +26084,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25869,7 +26149,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25934,7 +26214,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -25999,7 +26279,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26064,7 +26344,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26129,7 +26409,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26194,7 +26474,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26270,7 +26550,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26346,7 +26626,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26422,7 +26702,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26498,7 +26778,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26574,7 +26854,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26650,7 +26930,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26726,7 +27006,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26802,7 +27082,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26878,7 +27158,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -26954,7 +27234,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27030,7 +27310,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27106,7 +27386,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27182,7 +27462,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27258,7 +27538,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27334,7 +27614,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27410,7 +27690,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27486,7 +27766,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27562,7 +27842,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27638,7 +27918,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27714,7 +27994,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27790,7 +28070,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27866,7 +28146,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -27942,7 +28222,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28018,7 +28298,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28094,7 +28374,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28170,7 +28450,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28246,7 +28526,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28322,7 +28602,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28398,7 +28678,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28474,7 +28754,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28550,7 +28830,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28626,7 +28906,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28702,7 +28982,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28778,7 +29058,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28854,7 +29134,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -28930,7 +29210,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29006,7 +29286,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29082,7 +29362,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29158,7 +29438,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29234,7 +29514,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29310,7 +29590,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29386,7 +29666,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29462,7 +29742,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29527,7 +29807,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29592,7 +29872,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29657,7 +29937,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29722,7 +30002,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29787,7 +30067,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29852,7 +30132,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -29928,7 +30208,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30004,7 +30284,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30080,7 +30360,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30156,7 +30436,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30243,7 +30523,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30319,7 +30599,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30395,7 +30675,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30471,7 +30751,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30569,7 +30849,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30645,7 +30925,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30743,7 +31023,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30819,7 +31099,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30895,7 +31175,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -30971,7 +31251,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31058,7 +31338,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31134,7 +31414,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31210,7 +31490,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31286,7 +31566,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31362,7 +31642,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31438,7 +31718,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31514,7 +31794,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -31590,14 +31870,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 253 162"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 253 162"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1500 -7268]"

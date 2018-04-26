@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "ramadisky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
 	"timeofday" "5"
 	solid
 	{
@@ -43,7 +43,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-120.363 159.18 18.916]"
+				"startposition" "[-120.361 159.182 18.9155]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -179,7 +179,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-120.362 159.177 14.9161]"
+				"startposition" "[-120.359 159.177 14.9124]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -315,7 +315,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-120.176 141.31 26.9126]"
+				"startposition" "[-120.179 141.313 26.9111]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -451,7 +451,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[123.446 143.594 22.9177]"
+				"startposition" "[123.446 143.594 22.918]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -587,7 +587,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[123.264 161.473 14.9102]"
+				"startposition" "[123.264 161.477 14.9043]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -723,7 +723,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-120.182 141.29 22.916]"
+				"startposition" "[-120.182 141.289 22.918]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -859,7 +859,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-120.185 141.291 22.9141]"
+				"startposition" "[-120.184 141.293 22.9169]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -995,7 +995,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-120.369 159.174 14.918]"
+				"startposition" "[-120.371 159.172 14.9204]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1131,7 +1131,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-120.359 159.178 14.9141]"
+				"startposition" "[-120.359 159.18 14.9141]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"

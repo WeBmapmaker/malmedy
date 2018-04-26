@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "8"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11914,6 +11914,72 @@ world
 }
 entity
 {
+	"id" "5351"
+	"classname" "env_soundscape"
+	"radius" "78"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-212 292 93.0313"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "5384"
+	"classname" "env_soundscape"
+	"radius" "78"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "199 60 93.0313"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "5406"
+	"classname" "env_soundscape"
+	"radius" "68"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "93 54 105.99"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "5428"
+	"classname" "env_soundscape"
+	"radius" "68"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-97 284 105.99"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
 	"id" "4869"
 	"classname" "prop_static"
 	"angles" "5.98354 292.263 -4.53011"
@@ -12893,55 +12959,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 14000]"
-	}
-}
-entity
-{
-	"id" "488"
-	"classname" "env_soundscape"
-	"radius" "86"
-	"soundscape" "wwii.shooting_range_interior_small"
-	"StartDisabled" "0"
-	"targetname" "shooting_range_interior_house"
-	"origin" "-109 293 105.209"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -8768]"
-	}
-}
-entity
-{
-	"id" "499"
-	"classname" "env_soundscape"
-	"radius" "86"
-	"soundscape" "wwii.shooting_range_interior_small"
-	"StartDisabled" "0"
-	"targetname" "shooting_range_interior_house"
-	"origin" "74 43 103.948"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -8768]"
-	}
-}
-entity
-{
-	"id" "510"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
-	"radius" "60"
-	"origin" "198 54 101.828"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5500 5500]"
 	}
 }
 entity
@@ -15947,21 +15964,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8500 4500]"
-	}
-}
-entity
-{
-	"id" "3925"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
-	"radius" "60"
-	"origin" "-200 295 97.9608"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5500 5500]"
 	}
 }
 cameras

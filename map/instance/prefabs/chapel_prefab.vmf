@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "5"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "2"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3942,16 +3942,6 @@ world
 	}
 	group
 	{
-		"id" "659"
-		editor
-		{
-			"color" "115 164 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "701"
 		editor
 		{
@@ -3990,6 +3980,72 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "1740"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_shelter_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_chapel_small_interior"
+	"origin" "-44 -114 -141.319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 12000]"
+	}
+}
+entity
+{
+	"id" "1852"
+	"classname" "env_soundscape"
+	"radius" "60"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "102 -232 -166.753"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "1896"
+	"classname" "env_soundscape"
+	"radius" "120"
+	"soundscape" "wwii_foy_shelter_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_chapel_small_interior"
+	"origin" "-42 -238 -150.79"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 12000]"
+	}
+}
+entity
+{
+	"id" "1942"
+	"classname" "env_soundscape"
+	"radius" "60"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-187.984 -233.784 -156.055"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
 	}
 }
 entity
@@ -20929,9 +20985,10 @@ entity
 entity
 {
 	"id" "398"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
+	"classname" "env_soundscape"
 	"radius" "86"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
 	"origin" "-43.9371 20.2036 -154.34"
 	editor
 	{

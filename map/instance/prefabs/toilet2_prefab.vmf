@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,18 +14,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "2"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "ramadisky"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
 	"timeofday" "5"
 	solid
 	{
@@ -575,7 +575,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-156.262 44.3661 -115.359]"
+				"startposition" "[-156.27 44.3658 -115.357]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -710,7 +710,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-156.709 62.2518 -7.36058]"
+				"startposition" "[-156.711 62.2467 -7.36133]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -845,7 +845,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-156.145 39.9036 -21.3593]"
+				"startposition" "[-156.146 39.9035 -21.3594]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -980,7 +980,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-156.711 62.2439 -11.3584]"
+				"startposition" "[-156.708 62.2482 -11.3567]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1115,7 +1115,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-66.8446 46.6032 -115.359]"
+				"startposition" "[-66.8398 46.6033 -115.359]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1250,7 +1250,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-67.2935 64.4884 -11.3629]"
+				"startposition" "[-67.2904 64.4867 -11.3646]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1385,7 +1385,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-66.739 42.134 -21.3594]"
+				"startposition" "[-66.7402 42.134 -21.3594]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1520,7 +1520,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-67.2983 64.4921 -7.35484]"
+				"startposition" "[-67.3008 64.495 -7.35531]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1963,7 +1963,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[22.2169 47.9075 -115.359]"
+				"startposition" "[22.2188 47.9076 -115.357]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2098,7 +2098,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[22.3266 43.4363 -21.3594]"
+				"startposition" "[22.326 43.4362 -21.3594]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2233,7 +2233,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[21.773 65.7962 -7.3609]"
+				"startposition" "[21.7695 65.7986 -7.35936]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2368,7 +2368,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[21.7716 65.7948 -11.3619]"
+				"startposition" "[21.7711 65.7921 -11.3623]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2648,6 +2648,72 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "146"
+	"classname" "env_soundscape"
+	"radius" "81"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "-65 -89 -66.3732"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "191"
+	"classname" "env_soundscape"
+	"radius" "81"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "184 -92 -66.3732"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "202"
+	"classname" "env_soundscape"
+	"radius" "92"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-67 -194 -43.6531"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "236"
+	"classname" "env_soundscape"
+	"radius" "92"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "208 -199 -43.6531"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
 	}
 }
 entity

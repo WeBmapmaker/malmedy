@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "5"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3484,6 +3484,72 @@ world
 }
 entity
 {
+	"id" "3224"
+	"classname" "env_soundscape"
+	"radius" "66"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-223 47 21.2533"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "3246"
+	"classname" "env_soundscape"
+	"radius" "66"
+	"soundscape" "wwii_foy_houses_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_bar_interior"
+	"origin" "-15 58 21.2533"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 -7268]"
+	}
+}
+entity
+{
+	"id" "3279"
+	"classname" "env_soundscape"
+	"radius" "87"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-15 193 23.3146"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "3301"
+	"classname" "env_soundscape"
+	"radius" "87"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-341 72 23.3146"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
 	"id" "2249"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -3657,7 +3723,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "244.961 -126.212 144"
+	"origin" "246 -123 144"
 	editor
 	{
 		"color" "255 255 0"
@@ -4572,21 +4638,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "214"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "soundscape_bombedout_connector_02"
-	"radius" "96"
-	"origin" "-114.09 3.26367 207.332"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15500]"
 	}
 }
 entity
@@ -6383,51 +6434,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 13500]"
-	}
-}
-entity
-{
-	"id" "256"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "soundscape_outside"
-	"radius" "72"
-	"origin" "326.48 -146.197 52.6138"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 15500]"
-	}
-}
-entity
-{
-	"id" "259"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "soundscape_bombedout_connector_02"
-	"radius" "96"
-	"origin" "127.173 -19.4365 207.332"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15500]"
-	}
-}
-entity
-{
-	"id" "262"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "soundscape_bombedout_connector_02"
-	"radius" "96"
-	"origin" "140.929 -72.1165 30.0457"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 15500]"
 	}
 }
 entity
@@ -8325,21 +8331,6 @@ entity
 }
 entity
 {
-	"id" "484"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "soundscape_outside"
-	"radius" "72"
-	"origin" "-31.4172 175.454 30.8577"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 15500]"
-	}
-}
-entity
-{
 	"id" "487"
 	"classname" "prop_static"
 	"angles" "0 179.5 0"
@@ -8420,21 +8411,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "503"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "soundscape_outside"
-	"radius" "72"
-	"origin" "-291.347 34.3936 27.6177"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 15500]"
 	}
 }
 entity

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "24"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "24"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -868,6 +868,105 @@ world
 }
 entity
 {
+	"id" "6582"
+	"classname" "env_soundscape"
+	"radius" "72"
+	"soundscape" "wwii_foy_shelter_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_chapel_small_interior"
+	"origin" "342 331 86.8833"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 12000]"
+	}
+}
+entity
+{
+	"id" "6604"
+	"classname" "env_soundscape"
+	"radius" "86"
+	"soundscape" "wwii_foy_shelter_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_chapel_small_interior"
+	"origin" "513 350 86.8833"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 12000]"
+	}
+}
+entity
+{
+	"id" "6627"
+	"classname" "env_soundscape"
+	"radius" "92"
+	"soundscape" "wwii_foy_shelter_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_chapel_small_interior"
+	"origin" "505 514 41.1277"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 12000]"
+	}
+}
+entity
+{
+	"id" "6650"
+	"classname" "env_soundscape"
+	"radius" "86"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "516 653 42.5947"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "6683"
+	"classname" "env_soundscape"
+	"radius" "86"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "327 228 58.3901"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "6705"
+	"classname" "env_soundscape"
+	"radius" "86"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "518 226 58.3901"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
 	"id" "6416"
 	"classname" "func_detail"
 	solid
@@ -899,10 +998,10 @@ entity
 		{
 			"id" "840"
 			"plane" "(448 384 0) (448 432 0) (448 432 8)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
+			"material" "CONCRETE/HR_C/HR_CONCRETE_WALL_005"
+			"uaxis" "[0 0 1 1317] 0.25"
+			"vaxis" "[0 1 0 -256] 0.25"
+			"rotation" "90"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
@@ -2818,7 +2917,7 @@ entity
 {
 	"id" "3680"
 	"classname" "prop_static"
-	"angles" "0 283.5 0"
+	"angles" "0 208 0"
 	"disableflashlight" "0"
 	"disableselfshadowing" "0"
 	"disableshadowdepth" "0"
@@ -2841,7 +2940,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "298.63 252 82"
+	"origin" "262 273 82"
 	editor
 	{
 		"color" "255 255 0"
@@ -2933,7 +3032,7 @@ entity
 	"InputFilter" "32"
 	"model" "models/destructible/fueldepot.mdl"
 	"ModelDestroyed" "models/destructible/fueldepot_dmg.mdl"
-	"origin" "574.31 501.26 4.25"
+	"origin" "574.03 501.26 -2"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -2972,7 +3071,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "447.25 540.261 2.25"
+	"origin" "445.97 540.261 0"
 	editor
 	{
 		"color" "110 171 0"
@@ -2994,7 +3093,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "437.28 510.083 2.25"
+	"origin" "436 510.083 0"
 	editor
 	{
 		"color" "110 171 0"
@@ -3016,7 +3115,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "408.65 516.79 2.25"
+	"origin" "409 516.79 0"
 	editor
 	{
 		"color" "110 171 0"
@@ -3305,7 +3404,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/stain004"
-	"sides" "476"
+	"sides" "864"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-118.906 -75.9901 0"
@@ -3334,7 +3433,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/stain004"
-	"sides" "476 476 476 476 476 476"
+	"sides" "864"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-118.906 -75.9901 0"
@@ -3363,7 +3462,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/stain004"
-	"sides" "468"
+	"sides" "856"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-111.233 -76.5854 0"
@@ -3392,7 +3491,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/stain004"
-	"sides" "468"
+	"sides" "856"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-111.233 -76.5854 0"
@@ -3421,7 +3520,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "maps/overlay/france_sign_08"
-	"sides" "468"
+	"sides" "856"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-68.1027 -38.6114 0"
@@ -4016,7 +4115,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "maps/decal/moss_decal_01"
-	"sides" "476"
+	"sides" "864"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-128 -32 0"

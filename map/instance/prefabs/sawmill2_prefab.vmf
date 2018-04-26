@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "22"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "22"
+	"mapversion" "24"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -98,7 +98,7 @@ world
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "0 168 121"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -174,7 +174,7 @@ world
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "0 196 233"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5034,6 +5034,101 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "6595"
+	"classname" "env_soundscape"
+	"radius" "160"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable2_interior"
+	"origin" "-7 180 -60.75"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 13000]"
+	}
+}
+entity
+{
+	"id" "6617"
+	"classname" "env_soundscape"
+	"radius" "190"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable2_interior"
+	"origin" "22 -142 -60.75"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 13000]"
+	}
+}
+entity
+{
+	"id" "6686"
+	"classname" "env_soundscape"
+	"radius" "284"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-248 429 -33.4574"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "6731"
+	"classname" "env_soundscape"
+	"radius" "196"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "32 -457 -38.2913"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "6754"
+	"classname" "env_soundscape"
+	"radius" "80"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "266 -255 -53.4094"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "6788"
+	"classname" "env_cubemap"
+	"origin" "22.7031 -6 -36"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity

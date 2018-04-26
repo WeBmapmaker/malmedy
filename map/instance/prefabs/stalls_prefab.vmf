@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "5"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "6"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3938,6 +3938,171 @@ world
 }
 entity
 {
+	"id" "1227"
+	"classname" "env_soundscape"
+	"radius" "77"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "-445 -40 -126.727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "1262"
+	"classname" "env_soundscape"
+	"radius" "77"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "-256 -33 -126.727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "1273"
+	"classname" "env_soundscape"
+	"radius" "77"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "-59 -45 -126.727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "1284"
+	"classname" "env_soundscape"
+	"radius" "77"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "482 77 -126.727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "1295"
+	"classname" "env_soundscape"
+	"radius" "100"
+	"soundscape" "wwii_foy_bunker_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_stable_interior"
+	"origin" "364 -27 -126.727"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 9500]"
+	}
+}
+entity
+{
+	"id" "1318"
+	"classname" "env_soundscape"
+	"radius" "63"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-441 -136 -105.969"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "1341"
+	"classname" "env_soundscape"
+	"radius" "63"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-253 -139 -105.969"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "1352"
+	"classname" "env_soundscape"
+	"radius" "63"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-59 -143 -105.969"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "1363"
+	"classname" "env_soundscape"
+	"radius" "63"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "488 170 -105.969"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "1385"
+	"classname" "env_soundscape"
+	"radius" "86"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "362 -132 -105.969"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
 	"id" "39"
 	"classname" "prop_static"
 	"angles" "0 180 8"
@@ -3953,7 +4118,7 @@ entity
 	"origin" "437 -116 -197"
 	editor
 	{
-		"color" "0 125 202"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -13768]"
@@ -3976,7 +4141,7 @@ entity
 	"origin" "176 -116 -197"
 	editor
 	{
-		"color" "0 151 140"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -13768]"
@@ -3998,7 +4163,7 @@ entity
 	"origin" "221 -116 -48"
 	editor
 	{
-		"color" "0 189 166"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -4020,7 +4185,7 @@ entity
 	"origin" "431 -116 -113"
 	editor
 	{
-		"color" "0 199 184"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -4043,7 +4208,7 @@ entity
 	"origin" "291 -115 -197"
 	editor
 	{
-		"color" "0 201 218"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -14268]"
@@ -4065,7 +4230,7 @@ entity
 	"origin" "257 -116 -113"
 	editor
 	{
-		"color" "0 231 196"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -4088,7 +4253,7 @@ entity
 	"origin" "134 -100 -182"
 	editor
 	{
-		"color" "0 141 182"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-12268 -6268]"
@@ -4111,7 +4276,7 @@ entity
 	"origin" "96 -115 -197"
 	editor
 	{
-		"color" "0 123 184"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -14268]"
@@ -4134,7 +4299,7 @@ entity
 	"origin" "-540 -111 -169"
 	editor
 	{
-		"color" "0 253 246"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 4500]"
@@ -4157,7 +4322,7 @@ entity
 	"origin" "-20 -115 -197"
 	editor
 	{
-		"color" "0 123 232"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -13768]"
@@ -4180,7 +4345,7 @@ entity
 	"origin" "-539 154 -169"
 	editor
 	{
-		"color" "0 109 170"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 4500]"
@@ -4203,7 +4368,7 @@ entity
 	"origin" "-59 -100 -182"
 	editor
 	{
-		"color" "0 103 160"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-12268 -6268]"
@@ -4226,7 +4391,7 @@ entity
 	"origin" "-99 -114 -197"
 	editor
 	{
-		"color" "0 201 134"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -14268]"
@@ -4249,7 +4414,7 @@ entity
 	"origin" "254 29 -202"
 	editor
 	{
-		"color" "0 195 108"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 -16268]"
@@ -4272,7 +4437,7 @@ entity
 	"origin" "-216 21 -173"
 	editor
 	{
-		"color" "0 137 254"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-16268 -14268]"
@@ -4295,7 +4460,7 @@ entity
 	"origin" "-533 13 -49"
 	editor
 	{
-		"color" "0 163 224"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15000]"
@@ -4318,7 +4483,7 @@ entity
 	"origin" "168 21 -173"
 	editor
 	{
-		"color" "0 225 254"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 13500]"
@@ -4341,7 +4506,7 @@ entity
 	"origin" "-24 21 -173"
 	editor
 	{
-		"color" "0 203 124"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 13000]"
@@ -4364,7 +4529,7 @@ entity
 	"origin" "-193 13 -49"
 	editor
 	{
-		"color" "0 181 198"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -4387,7 +4552,7 @@ entity
 	"origin" "36 13 -49"
 	editor
 	{
-		"color" "0 135 232"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 16000]"
@@ -4410,7 +4575,7 @@ entity
 	"origin" "-251 -99 -182"
 	editor
 	{
-		"color" "0 245 218"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-12268 -6268]"
@@ -4433,7 +4598,7 @@ entity
 	"origin" "-211 -114 -197"
 	editor
 	{
-		"color" "0 203 104"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -13768]"
@@ -4456,7 +4621,7 @@ entity
 	"origin" "-291 -114 -197"
 	editor
 	{
-		"color" "0 173 102"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -14268]"
@@ -4479,7 +4644,7 @@ entity
 	"origin" "-401 -115 -197"
 	editor
 	{
-		"color" "0 135 196"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -13768]"
@@ -4502,7 +4667,7 @@ entity
 	"origin" "-399 -131 -121"
 	editor
 	{
-		"color" "0 205 210"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -14768]"
@@ -4525,7 +4690,7 @@ entity
 	"origin" "-482 -116 -197"
 	editor
 	{
-		"color" "0 243 108"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -14268]"
@@ -4548,7 +4713,7 @@ entity
 	"origin" "-441 -106 -197"
 	editor
 	{
-		"color" "0 105 102"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -15768]"
@@ -4571,7 +4736,7 @@ entity
 	"origin" "-442 -98 -121"
 	editor
 	{
-		"color" "0 143 132"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -15268]"
@@ -4596,7 +4761,7 @@ entity
 	"origin" "365.36 -81 -23.5657"
 	editor
 	{
-		"color" "0 165 154"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -2768]"
@@ -4621,7 +4786,7 @@ entity
 	"origin" "365.82 -63 -24.4556"
 	editor
 	{
-		"color" "0 247 120"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -2268]"
@@ -4652,7 +4817,7 @@ entity
 	"origin" "391 -42 -24.4556"
 	editor
 	{
-		"color" "0 101 146"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -4676,7 +4841,7 @@ entity
 	"origin" "365.82 -75 -24.4556"
 	editor
 	{
-		"color" "0 211 108"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -3268]"
@@ -4699,7 +4864,7 @@ entity
 	"origin" "482 165 5"
 	editor
 	{
-		"color" "0 169 202"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 5000]"
@@ -4722,7 +4887,7 @@ entity
 	"origin" "490 165 41"
 	editor
 	{
-		"color" "0 163 164"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 5500]"
@@ -4745,7 +4910,7 @@ entity
 	"origin" "-505 82 -182"
 	editor
 	{
-		"color" "0 245 222"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[13000 8000]"
@@ -4767,7 +4932,7 @@ entity
 	"origin" "425 -116 -48"
 	editor
 	{
-		"color" "0 137 218"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
@@ -4782,7 +4947,7 @@ entity
 	"origin" "-343.75 50.95 -48.6963"
 	editor
 	{
-		"color" "0 217 138"
+		"color" "0 0 255"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-15268 -1768]"
@@ -4805,7 +4970,7 @@ entity
 	"origin" "489 142 -121"
 	editor
 	{
-		"color" "0 151 128"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 7500]"
@@ -4828,7 +4993,7 @@ entity
 	"origin" "489 148 -197"
 	editor
 	{
-		"color" "0 133 126"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-16268 13000]"
@@ -4851,7 +5016,7 @@ entity
 	"origin" "449 158 -197"
 	editor
 	{
-		"color" "0 175 148"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 8500]"
@@ -4874,7 +5039,7 @@ entity
 	"origin" "529 158 -197"
 	editor
 	{
-		"color" "0 177 110"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 8000]"
@@ -4897,7 +5062,7 @@ entity
 	"origin" "541 168 -121"
 	editor
 	{
-		"color" "0 191 144"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10500 -2268]"
@@ -4920,7 +5085,7 @@ entity
 	"origin" "557 154 -169"
 	editor
 	{
-		"color" "0 165 178"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 3000]"
@@ -4943,25 +5108,10 @@ entity
 	"origin" "557 -111 -169"
 	editor
 	{
-		"color" "0 135 144"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 3000]"
-	}
-}
-entity
-{
-	"id" "252"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
-	"radius" "86"
-	"origin" "-442 -116.5 -103"
-	editor
-	{
-		"color" "0 189 202"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -10768]"
 	}
 }
 entity
@@ -4983,7 +5133,7 @@ entity
 	"origin" "-438.54 -62 -26.0114"
 	editor
 	{
-		"color" "0 231 136"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -2268]"
@@ -5003,7 +5153,7 @@ entity
 	"origin" "-408.17 78.05 -173"
 	editor
 	{
-		"color" "0 185 170"
+		"color" "255 0 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 5500]"
@@ -5026,7 +5176,7 @@ entity
 	"origin" "533 143 -49"
 	editor
 	{
-		"color" "0 207 104"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5049,7 +5199,7 @@ entity
 	"origin" "533 25 -49"
 	editor
 	{
-		"color" "0 189 194"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5072,7 +5222,7 @@ entity
 	"origin" "-517 28 -202"
 	editor
 	{
-		"color" "0 179 248"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 -16268]"
@@ -5095,7 +5245,7 @@ entity
 	"origin" "291 13 -49"
 	editor
 	{
-		"color" "0 233 114"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 16000]"
@@ -5118,7 +5268,7 @@ entity
 	"origin" "238 25 -49"
 	editor
 	{
-		"color" "0 219 112"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5141,7 +5291,7 @@ entity
 	"origin" "238 143 -49"
 	editor
 	{
-		"color" "0 133 206"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5164,27 +5314,10 @@ entity
 	"origin" "-352 29 -202"
 	editor
 	{
-		"color" "0 231 104"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 -16268]"
-	}
-}
-entity
-{
-	"id" "290"
-	"classname" "env_soundscape"
-	"radius" "72"
-	"soundscape" "wwii.shooting_range_interior_barn"
-	"StartDisabled" "0"
-	"targetname" "shooting_range_interior_barn"
-	"origin" "-440 -54 -113"
-	editor
-	{
-		"color" "0 157 206"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -6768]"
 	}
 }
 entity
@@ -5204,7 +5337,7 @@ entity
 	"origin" "-368 140 -49"
 	editor
 	{
-		"color" "0 215 208"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5227,7 +5360,7 @@ entity
 	"origin" "-368 22 -49"
 	editor
 	{
-		"color" "0 141 158"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5250,7 +5383,7 @@ entity
 	"origin" "-532 140 -49"
 	editor
 	{
-		"color" "0 199 152"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5273,7 +5406,7 @@ entity
 	"origin" "-532 22 -49"
 	editor
 	{
-		"color" "0 101 154"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5296,7 +5429,7 @@ entity
 	"origin" "-67 143 -48"
 	editor
 	{
-		"color" "0 143 252"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5319,7 +5452,7 @@ entity
 	"origin" "-67 25 -48"
 	editor
 	{
-		"color" "0 165 110"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 15500]"
@@ -5342,7 +5475,7 @@ entity
 	"origin" "133 147 -93"
 	editor
 	{
-		"color" "0 127 228"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12000 6500]"
@@ -5365,7 +5498,7 @@ entity
 	"origin" "133 132 -93"
 	editor
 	{
-		"color" "0 101 174"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12500 6500]"
@@ -5446,7 +5579,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5522,7 +5655,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5598,7 +5731,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5674,7 +5807,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5750,7 +5883,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5826,7 +5959,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5902,7 +6035,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5978,7 +6111,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6054,7 +6187,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6130,7 +6263,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6206,7 +6339,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6282,7 +6415,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6358,7 +6491,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6434,7 +6567,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6510,7 +6643,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6586,7 +6719,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6662,7 +6795,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6738,7 +6871,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6814,7 +6947,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6890,7 +7023,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -6966,7 +7099,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7042,7 +7175,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7118,7 +7251,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7194,7 +7327,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7270,7 +7403,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7346,7 +7479,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7422,7 +7555,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7498,7 +7631,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7574,7 +7707,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7650,7 +7783,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7726,7 +7859,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7802,7 +7935,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7878,7 +8011,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -7954,7 +8087,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -8030,7 +8163,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -8106,7 +8239,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -8182,7 +8315,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -8258,7 +8391,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -8334,7 +8467,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -8410,14 +8543,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 243 220"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 243 220"
+		"color" "0 180 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 7500]"
@@ -8440,7 +8573,7 @@ entity
 	"origin" "-61 149 -93"
 	editor
 	{
-		"color" "0 109 182"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12000 6000]"
@@ -8463,7 +8596,7 @@ entity
 	"origin" "362 165 41"
 	editor
 	{
-		"color" "0 163 112"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 6000]"
@@ -8486,7 +8619,7 @@ entity
 	"origin" "-61 132 -93"
 	editor
 	{
-		"color" "0 193 190"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12000 5500]"
@@ -8509,7 +8642,7 @@ entity
 	"origin" "-255 148 -93"
 	editor
 	{
-		"color" "0 223 172"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12000 7000]"
@@ -8532,7 +8665,7 @@ entity
 	"origin" "-255 132 -93"
 	editor
 	{
-		"color" "0 141 162"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12500 7000]"
@@ -8555,25 +8688,10 @@ entity
 	"origin" "234 165 41"
 	editor
 	{
-		"color" "0 127 136"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 6500]"
-	}
-}
-entity
-{
-	"id" "362"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
-	"radius" "86"
-	"origin" "-250 -122 -131"
-	editor
-	{
-		"color" "0 197 142"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -10768]"
 	}
 }
 entity
@@ -8601,7 +8719,7 @@ entity
 	"origin" "-413.36 -41 -26.0114"
 	editor
 	{
-		"color" "0 123 108"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -8616,7 +8734,7 @@ entity
 	"origin" "282.21 24.0701 -58.1974"
 	editor
 	{
-		"color" "0 201 234"
+		"color" "0 0 255"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-15268 -1768]"
@@ -8647,25 +8765,10 @@ entity
 	"origin" "92 -150 27"
 	editor
 	{
-		"color" "0 183 184"
+		"color" "80 150 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8000 8000]"
-	}
-}
-entity
-{
-	"id" "378"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
-	"radius" "86"
-	"origin" "-41.21 -112 -133.912"
-	editor
-	{
-		"color" "0 157 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -10768]"
 	}
 }
 entity
@@ -8687,7 +8790,7 @@ entity
 	"origin" "-439 -80 -25.1215"
 	editor
 	{
-		"color" "0 203 228"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -2768]"
@@ -8718,7 +8821,7 @@ entity
 	"origin" "403 -150 -5"
 	editor
 	{
-		"color" "0 221 166"
+		"color" "80 150 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8000 8500]"
@@ -8749,40 +8852,10 @@ entity
 	"origin" "-161 -166 -5"
 	editor
 	{
-		"color" "0 183 192"
+		"color" "80 150 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8000 7500]"
-	}
-}
-entity
-{
-	"id" "396"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
-	"radius" "86"
-	"origin" "366 -137 -120.361"
-	editor
-	{
-		"color" "0 225 122"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -10768]"
-	}
-}
-entity
-{
-	"id" "399"
-	"classname" "env_soundscape_proxy"
-	"MainSoundscapeName" "shooting_range_exterior"
-	"radius" "86"
-	"origin" "489 201 -100"
-	editor
-	{
-		"color" "0 235 248"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -10768]"
 	}
 }
 entity
@@ -8797,27 +8870,10 @@ entity
 	"origin" "169.27 74.29 -136"
 	editor
 	{
-		"color" "0 233 254"
+		"color" "255 0 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 5500]"
-	}
-}
-entity
-{
-	"id" "404"
-	"classname" "env_soundscape"
-	"radius" "72"
-	"soundscape" "wwii.shooting_range_interior_barn"
-	"StartDisabled" "0"
-	"targetname" "shooting_range_interior_barn"
-	"origin" "485 88 -113"
-	editor
-	{
-		"color" "0 127 156"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -6768]"
 	}
 }
 entity
@@ -8832,27 +8888,10 @@ entity
 	"origin" "233.27 76.1101 -173"
 	editor
 	{
-		"color" "0 253 114"
+		"color" "255 0 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 5500]"
-	}
-}
-entity
-{
-	"id" "417"
-	"classname" "env_soundscape"
-	"radius" "101"
-	"soundscape" "wwii.shooting_range_interior_barn"
-	"StartDisabled" "0"
-	"targetname" "shooting_range_interior_barn"
-	"origin" "356 -36 -123.258"
-	editor
-	{
-		"color" "0 147 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 -6768]"
 	}
 }
 entity
@@ -8874,7 +8913,7 @@ entity
 	"origin" "43 123 -35.1492"
 	editor
 	{
-		"color" "0 209 246"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -2768]"
@@ -8905,7 +8944,7 @@ entity
 	"origin" "17.3604 84 -36.0391"
 	editor
 	{
-		"color" "0 183 168"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
@@ -8930,7 +8969,7 @@ entity
 	"origin" "42.54 105 -36.0391"
 	editor
 	{
-		"color" "0 253 242"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -2268]"
@@ -8954,7 +8993,7 @@ entity
 	"origin" "42.54 117 -36.0391"
 	editor
 	{
-		"color" "0 239 120"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -3268]"
@@ -8978,7 +9017,7 @@ entity
 	"origin" "-438.54 -74 -26.0114"
 	editor
 	{
-		"color" "0 169 158"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 -3268]"
@@ -9001,7 +9040,7 @@ entity
 	"origin" "548 29 -202"
 	editor
 	{
-		"color" "0 167 116"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[15000 -16268]"
@@ -9024,7 +9063,7 @@ entity
 	"origin" "403 131 -112.422"
 	editor
 	{
-		"color" "0 113 242"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9500 -3768]"
@@ -9047,7 +9086,7 @@ entity
 	"origin" "131 -21 -175"
 	editor
 	{
-		"color" "0 175 104"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[13000 6000]"
@@ -9070,7 +9109,7 @@ entity
 	"origin" "106 -25 -143"
 	editor
 	{
-		"color" "0 129 226"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[13000 6500]"
@@ -9093,7 +9132,7 @@ entity
 	"origin" "74 -33 -175"
 	editor
 	{
-		"color" "0 163 136"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[13000 5500]"
@@ -9116,7 +9155,7 @@ entity
 	"origin" "-188 -117 5"
 	editor
 	{
-		"color" "0 165 126"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 2500]"
@@ -9139,7 +9178,7 @@ entity
 	"origin" "-188 -117 5"
 	editor
 	{
-		"color" "0 191 100"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 3000]"
@@ -9162,7 +9201,7 @@ entity
 	"origin" "-188 -117 -121"
 	editor
 	{
-		"color" "0 197 178"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 3500]"
@@ -9185,7 +9224,7 @@ entity
 	"origin" "-254 -122 41"
 	editor
 	{
-		"color" "0 135 228"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10500 -768]"
@@ -9208,7 +9247,7 @@ entity
 	"origin" "-510 -122 41"
 	editor
 	{
-		"color" "0 209 154"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10500 -1768]"
@@ -9231,7 +9270,7 @@ entity
 	"origin" "-382 -122 41"
 	editor
 	{
-		"color" "0 219 236"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10500 -1268]"
@@ -9254,7 +9293,7 @@ entity
 	"origin" "-126 -122 41"
 	editor
 	{
-		"color" "0 209 226"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 0]"
@@ -9277,7 +9316,7 @@ entity
 	"origin" "2 -122 41"
 	editor
 	{
-		"color" "0 111 188"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 500]"
@@ -9300,7 +9339,7 @@ entity
 	"origin" "130 -122 41"
 	editor
 	{
-		"color" "0 237 126"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 1000]"
@@ -9323,7 +9362,7 @@ entity
 	"origin" "258 -122 41"
 	editor
 	{
-		"color" "0 167 112"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 1500]"
@@ -9346,7 +9385,7 @@ entity
 	"origin" "386 -122 41"
 	editor
 	{
-		"color" "0 101 186"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 2000]"
@@ -9369,7 +9408,7 @@ entity
 	"origin" "-406 165 41"
 	editor
 	{
-		"color" "0 183 108"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 9000]"
@@ -9392,7 +9431,7 @@ entity
 	"origin" "-278 165 41"
 	editor
 	{
-		"color" "0 189 138"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 8500]"
@@ -9415,7 +9454,7 @@ entity
 	"origin" "-22 165 41"
 	editor
 	{
-		"color" "0 103 236"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 7500]"
@@ -9438,7 +9477,7 @@ entity
 	"origin" "-150 165 41"
 	editor
 	{
-		"color" "0 189 242"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 8000]"
@@ -9461,7 +9500,7 @@ entity
 	"origin" "106 165 41"
 	editor
 	{
-		"color" "0 223 112"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[11000 7000]"

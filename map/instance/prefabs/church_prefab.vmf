@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "121"
+	"mapversion" "122"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "121"
+	"mapversion" "122"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -12323,6 +12323,105 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "22402"
+	"classname" "env_soundscape"
+	"radius" "108"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "-20 510.239 100"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "22436"
+	"classname" "env_soundscape"
+	"radius" "71"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "1276 16 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "22481"
+	"classname" "env_soundscape"
+	"radius" "71"
+	"soundscape" "wwii_foy_exterior"
+	"StartDisabled" "0"
+	"origin" "776.786 996 44"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[5000 -1268]"
+	}
+}
+entity
+{
+	"id" "22514"
+	"classname" "env_soundscape"
+	"radius" "200"
+	"soundscape" "wwii_foy_church_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_church_interior"
+	"origin" "228 512 64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 10000]"
+	}
+}
+entity
+{
+	"id" "22582"
+	"classname" "env_soundscape"
+	"radius" "136"
+	"soundscape" "wwii_foy_church_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_church_interior"
+	"origin" "912 988 84"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 10000]"
+	}
+}
+entity
+{
+	"id" "22617"
+	"classname" "env_soundscape"
+	"radius" "136"
+	"soundscape" "wwii_foy_church_interior"
+	"StartDisabled" "0"
+	"targetname" "soundscape_church_interior"
+	"origin" "1132 32 84"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 10000]"
 	}
 }
 entity
