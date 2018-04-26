@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "33"
+	"mapversion" "36"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "33"
+	"mapversion" "36"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2682,6 +2682,138 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "5758"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademaxdist" "5500"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"model" "models/doorswindows/crowin03c_era.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "236 2 197.395"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "5770"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademaxdist" "5500"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"model" "models/doorswindows/crowin03c_era.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "480 2 197.395"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "5794"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademaxdist" "5500"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"model" "models/doorswindows/crowin03c_era.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2 1262 248"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "5802"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademaxdist" "5500"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"model" "models/doorswindows/crowin03c_era.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "2 1108 248"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "5822"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademaxdist" "5500"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"model" "models/doorswindows/crowin03c_era.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "830 1260 228.359"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "5826"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"fademaxdist" "5500"
+	"fademindist" "5500"
+	"fadescale" "1"
+	"model" "models/doorswindows/crowin03c_era.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "830 1106 228.359"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
 	}
 }
 entity

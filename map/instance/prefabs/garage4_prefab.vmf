@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "6"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -122,6 +122,64 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "963"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "-1 -7.6294e-008 -0"
+	"BasisOrigin" "-1.37639e-005 196 72"
+	"BasisU" "-7.6294e-008 1 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "maps/overlay/france_sign_05"
+	"sides" "151"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-91.3215 -64.4096 0"
+	"uv1" "-86.3283 60.9596 0"
+	"uv2" "87.6674 68.3755 0"
+	"uv3" "89.9824 -64.9255 0"
+	"origin" "-1.37639e-005 196 72"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1023"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 1 0"
+	"BasisOrigin" "175.718 396 176"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "maps/overlay/france_sign_05"
+	"sides" "238"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-41.3376 -24.3304 0"
+	"uv1" "-41.7583 23.7615 0"
+	"uv2" "41.7603 24.2455 0"
+	"uv3" "41.3356 -23.6766 0"
+	"origin" "175.718 396 176"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 entity

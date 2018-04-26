@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "18"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1013,7 +1013,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-15.9999 -16.0001 308]"
+				"startposition" "[-16 -16 308]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1083,7 +1083,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-15.9999 -16.0001 304]"
+				"startposition" "[-16 -16 304]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1164,7 +1164,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-15.9999 -16.0001 304]"
+				"startposition" "[-16 -16 304]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1234,7 +1234,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[-15.9999 -16.0001 304]"
+				"startposition" "[-16 -16 304]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1384,7 +1384,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[272 -16.0001 308]"
+				"startposition" "[272 -16 308]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1454,7 +1454,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[272 -16.0001 304]"
+				"startposition" "[272 -16 304]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1535,7 +1535,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[272 -16.0001 304]"
+				"startposition" "[272 -16 304]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -1675,7 +1675,7 @@ world
 			dispinfo
 			{
 				"power" "2"
-				"startposition" "[128 -16.0001 448]"
+				"startposition" "[128 -16 448]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -2417,7 +2417,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "maps/overlay/france_sign_15"
-	"sides" "750 756"
+	"sides" "940 750"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-72.8486 -73.896 0"
