@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "45"
+	"mapversion" "46"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "45"
+	"mapversion" "46"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -43,7 +43,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-201.338 29.0058 298.994]"
+				"startposition" "[-201.338 29 299]"
 				"flags" "6"
 				"elevation" "0"
 				"subdiv" "0"
@@ -202,7 +202,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-214.999 202.472 298.994]"
+				"startposition" "[-215 202.472 299]"
 				"flags" "6"
 				"elevation" "0"
 				"subdiv" "0"
@@ -361,7 +361,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-44.8475 41.3137 298.998]"
+				"startposition" "[-44.8473 41.3135 299]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -520,7 +520,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-201.338 29.006 298.994]"
+				"startposition" "[-201.339 29 299]"
 				"flags" "6"
 				"elevation" "0"
 				"subdiv" "0"
@@ -679,7 +679,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-201.336 29 314.997]"
+				"startposition" "[-201.336 29 315]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -893,7 +893,7 @@ world
 		}
 		editor
 		{
-			"color" "112 253 0"
+			"color" "0 169 170"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -3507,6 +3507,27 @@ world
 }
 entity
 {
+	"id" "7408"
+	"classname" "obj_ammo_crate"
+	"angles" "0 0 0"
+	"fademaxdist" "2000"
+	"fademindist" "2000"
+	"InitialHealth" "9001"
+	"ResupplyProximity" "300"
+	"TakeDamageBullets" "0"
+	"targetname" "resupply_axis"
+	"TeamNum" "0"
+	"origin" "-155.004 267 105"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 -15268]"
+	}
+}
+entity
+{
 	"id" "6616"
 	"classname" "func_detail"
 	solid
@@ -5827,7 +5848,7 @@ entity
 	"id" "5191"
 	"classname" "info_overlay"
 	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-399.157 -45.7364 64"
+	"BasisOrigin" "-399.157 -45.7363 64"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 0"
 	"EndU" "1"

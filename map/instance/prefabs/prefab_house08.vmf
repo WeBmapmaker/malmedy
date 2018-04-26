@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "7"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11411,6 +11411,27 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+}
+entity
+{
+	"id" "4547"
+	"classname" "obj_ammo_crate"
+	"angles" "0 0 0"
+	"fademaxdist" "2000"
+	"fademindist" "2000"
+	"InitialHealth" "9001"
+	"ResupplyProximity" "300"
+	"TakeDamageBullets" "0"
+	"targetname" "resupply_axis"
+	"TeamNum" "0"
+	"origin" "463.27 -107.8 163.25"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 -15268]"
 	}
 }
 entity

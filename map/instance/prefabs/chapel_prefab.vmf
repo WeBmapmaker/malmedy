@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "8"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -18562,64 +18562,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
-	}
-}
-entity
-{
-	"id" "1293"
-	"classname" "info_overlay"
-	"angles" "0 45 0"
-	"BasisNormal" "-0.516794 0.516794 0.682531"
-	"BasisOrigin" "-116.095 -189.112 -10.7095"
-	"BasisU" "0.707107 0.707107 0"
-	"BasisV" "-0.482622 0.482622 -0.730857"
-	"EndU" "0"
-	"EndV" "1"
-	"fademindist" "-1"
-	"material" "overlays/debrisdirt005"
-	"sides" "2141 1559"
-	"StartU" "1"
-	"StartV" "0"
-	"uv0" "-128 -128 0"
-	"uv1" "-128 128 0"
-	"uv2" "128 128 0"
-	"uv3" "128 -128 0"
-	"origin" "-116.095 -189.112 -10.7095"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3000]"
-	}
-}
-entity
-{
-	"id" "1317"
-	"classname" "info_overlay"
-	"angles" "0 110 0"
-	"BasisNormal" "0.249966 -0.686777 0.682535"
-	"BasisOrigin" "-45.6377 -246.421 38.51"
-	"BasisU" "-0.939693 -0.34202 0"
-	"BasisV" "0.233441 -0.641373 -0.730853"
-	"EndU" "0"
-	"EndV" "1"
-	"fademindist" "-1"
-	"material" "overlays/debrisdirt005"
-	"sides" "2086 2184 1595 1784 2091 1917"
-	"StartU" "1"
-	"StartV" "0"
-	"uv0" "-128 -128 0"
-	"uv1" "-128 128 0"
-	"uv2" "128 128 0"
-	"uv3" "128 -128 0"
-	"origin" "-45.6377 -246.421 38.51"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 3500]"
 	}
 }
 entity
