@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "86"
+	"mapversion" "87"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "86"
+	"mapversion" "87"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -60956,35 +60956,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -12268]"
-	}
-}
-entity
-{
-	"id" "3746"
-	"classname" "info_overlay"
-	"angles" "0 315 0"
-	"BasisNormal" "-0.707107 0.707107 0"
-	"BasisOrigin" "-384 1024 -8"
-	"BasisU" "0.707107 0.707107 0"
-	"BasisV" "0 0 -1"
-	"EndU" "0"
-	"EndV" "1"
-	"fademindist" "-1"
-	"material" "overlays/debrisdirt005"
-	"sides" "112 76 74"
-	"StartU" "1"
-	"StartV" "0"
-	"uv0" "-128 -92 0"
-	"uv1" "-128 92 0"
-	"uv2" "128 92 0"
-	"uv3" "128 -92 0"
-	"origin" "-384 1024 -8"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -11768]"
 	}
 }
 entity
