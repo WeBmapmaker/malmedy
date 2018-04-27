@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "83"
+	"mapversion" "84"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "83"
+	"mapversion" "84"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -58897,7 +58897,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "maps/decal/map_02"
-	"sides" "1842"
+	"sides" "15263"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-24.6362 -19.5653 0"
@@ -58926,7 +58926,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "maps/decal/folded_map"
-	"sides" "1842"
+	"sides" "15263"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-9.15952 -9.94692 0"
@@ -58955,7 +58955,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/custom/beastiebeer"
-	"sides" "1855"
+	"sides" "15258"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-15.8848 -20.219 0"
@@ -58984,7 +58984,7 @@ entity
 	"EndV" "1"
 	"fademindist" "-1"
 	"material" "decals/custom/webwillgetthejobdone"
-	"sides" "1855 1855 1855 1855"
+	"sides" "15258"
 	"StartU" "1"
 	"StartV" "0"
 	"uv0" "-15.6516 -18 0"
@@ -59969,7 +59969,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/decalpapers01"
-	"sides" "484"
+	"sides" "15676"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-31.3635 -31.1571 0"
@@ -59998,7 +59998,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/decalpapers02"
-	"sides" "484"
+	"sides" "15676"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-31.3635 -31.1571 0"
@@ -60084,7 +60084,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "maps/decal/plaster_damage_01"
-	"sides" "145"
+	"sides" "15677"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-76.3552 -73.6499 0"
@@ -60726,35 +60726,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -14768]"
-	}
-}
-entity
-{
-	"id" "3565"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 0 1"
-	"BasisOrigin" "-124 896 24"
-	"BasisU" "1 0 0"
-	"BasisV" "0 1 0"
-	"EndU" "1"
-	"EndV" "0"
-	"fademindist" "-1"
-	"material" "overlays/debrisdirt005"
-	"sides" "484"
-	"StartU" "0"
-	"StartV" "1"
-	"uv0" "-128 -128 0"
-	"uv1" "-128 128 0"
-	"uv2" "128 128 0"
-	"uv3" "128 -128 0"
-	"origin" "-124 896 24"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -14268]"
 	}
 }
 entity
