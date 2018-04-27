@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "29"
+	"mapversion" "30"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "30"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4910,9 +4910,9 @@ entity
 		side
 		{
 			"id" "2082"
-			"plane" "(36 -104 148) (36 -80 148) (72 -80 0)"
+			"plane" "(82 -104 0) (46 -104 148) (46 -80 148)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4921,9 +4921,9 @@ entity
 		side
 		{
 			"id" "2081"
-			"plane" "(28 -80 148) (28 -104 148) (64 -104 0)"
+			"plane" "(62 -80 0) (26 -80 148) (26 -104 148)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4932,9 +4932,9 @@ entity
 		side
 		{
 			"id" "2080"
-			"plane" "(28 -80 148) (36 -80 148) (36 -104 148)"
+			"plane" "(26 -80 148) (46 -80 148) (46 -104 148)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4943,9 +4943,9 @@ entity
 		side
 		{
 			"id" "2079"
-			"plane" "(72 -80 0) (64 -80 0) (64 -104 0)"
+			"plane" "(62 -104 0) (82 -104 0) (82 -80 0)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4954,9 +4954,9 @@ entity
 		side
 		{
 			"id" "2078"
-			"plane" "(64 -80 0) (72 -80 0) (36 -80 148)"
+			"plane" "(62 -80 0) (82 -80 0) (46 -80 148)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -4965,9 +4965,9 @@ entity
 		side
 		{
 			"id" "2077"
-			"plane" "(72 -104 0) (64 -104 0) (28 -104 148)"
+			"plane" "(82 -104 0) (62 -104 0) (26 -104 148)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 8] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
