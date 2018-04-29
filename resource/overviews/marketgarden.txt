@@ -1,0 +1,9 @@
+<marketgarden>
+{
+	material	overviews/marketgarden	
+	pos_x		-7066			
+	pos_y		8639			
+	scale		13.0 			
+	rotate		0		
+	zoom		1.0			
+}

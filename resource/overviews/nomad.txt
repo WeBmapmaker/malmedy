@@ -1,0 +1,9 @@
+<nomad>
+{
+	material	overviews/nomad	
+	pos_x		-4186			
+	pos_y		4229			
+	scale		10.0 			
+	rotate		0		
+	zoom		1.0			
+}

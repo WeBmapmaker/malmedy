@@ -1,0 +1,9 @@
+<squatter>
+{
+	material	overviews/squatter	
+	pos_x		-6332			
+	pos_y		8029			
+	scale		15.0 			
+	rotate		0		
+	zoom		1.0			
+}

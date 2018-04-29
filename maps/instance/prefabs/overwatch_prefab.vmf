@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "3"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -47,8 +47,8 @@ entity
 		"id" "166"
 		side
 		{
-			"id" "318"
-			"plane" "(39.1845 -51.2913 103) (2.18434 -50.3668 103) (2.85321 -36.2781 99)"
+			"id" "336"
+			"plane" "(2 -36 99) (40 -36 99) (40 -56 103)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
 			"vaxis" "[1 -0.0348995 0 -13.6012] 0.25"
@@ -58,8 +58,8 @@ entity
 		}
 		side
 		{
-			"id" "317"
-			"plane" "(38.7775 -67.6942 -65.7079) (1.7964 -66.7786 -65.7088) (1.12181 -80.8727 -61.6997)"
+			"id" "335"
+			"plane" "(2 -85 -61.7015) (40 -85 -61.6983) (40 -67 -65.7074)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
 			"vaxis" "[1 -0.0348995 0 -13.6012] 0.25"
@@ -69,8 +69,8 @@ entity
 		}
 		side
 		{
-			"id" "316"
-			"plane" "(38.1001 -81.7909 -61.6973) (1.12753 -80.8673 -61.7002) (2.18453 -50.3613 103)"
+			"id" "334"
+			"plane" "(2 -56 103) (40 -56 103) (40 -85 -61.6983)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[-1 0.0348995 0 13.6012] 0.25"
 			"vaxis" "[-0.00635993 -0.182125 -0.983255 11.7203] 0.25"
@@ -80,8 +80,8 @@ entity
 		}
 		side
 		{
-			"id" "315"
-			"plane" "(1.79906 -66.7815 -65.7072) (38.7796 -67.6979 -65.7062) (39.8591 -37.1973 99)"
+			"id" "333"
+			"plane" "(40 -36 99) (2 -36 99) (2 -67 -65.7085)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[-1 0.0348995 0 13.6012] 0.25"
 			"vaxis" "[-0.00635993 -0.182125 -0.983255 11.7203] 0.25"
@@ -91,8 +91,8 @@ entity
 		}
 		side
 		{
-			"id" "314"
-			"plane" "(1.12467 -80.87 -61.7012) (1.80797 -66.7739 -65.7095) (2.85607 -36.2754 99)"
+			"id" "332"
+			"plane" "(2 -36 99) (2 -56 103) (2 -85 -61.7015)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
 			"vaxis" "[-0.00635993 -0.182125 -0.983255 11.7203] 0.25"
@@ -102,8 +102,8 @@ entity
 		}
 		side
 		{
-			"id" "313"
-			"plane" "(38.7746 -67.6968 -65.709) (38.0997 -81.8019 -61.6973) (39.1818 -51.2884 103)"
+			"id" "331"
+			"plane" "(40 -56 103) (40 -36 99) (40 -67 -65.7074)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
 			"uaxis" "[0.0343151 0.982656 -0.182236 -47.3017] 0.25"
 			"vaxis" "[-0.00635993 -0.182125 -0.983255 11.7203] 0.25"
@@ -1100,7 +1100,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "18.5312 -56.32 17.4903"
 	editor
 	{

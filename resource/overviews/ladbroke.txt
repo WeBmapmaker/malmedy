@@ -1,0 +1,9 @@
+<ladbroke>
+{
+	material	overviews/ladbroke
+	pos_x		-4700			
+	pos_y		5625			
+	scale		10.0 			
+	rotate		0		
+	zoom		1.0			
+}

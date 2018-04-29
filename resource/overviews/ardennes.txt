@@ -1,0 +1,9 @@
+"ardennes"
+{
+	material	overviews/ardennes      // texture file
+	pos_x		"-10143"				// X coordinate
+	pos_y		"11262"					// Y coordinate
+	scale		"22.00" 				// scale used when taking the screenshot
+	rotate		"0"						// map was rotated by 90 degrees in image editor
+	zoom		1						// optimal zoom factor if map is shown in full size
+}

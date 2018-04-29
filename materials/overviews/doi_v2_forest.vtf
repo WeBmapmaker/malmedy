@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$translucent 1
+$basetexture "overviews/doi_v2_forest"
+$vertexalpha 1
+$no_fullbright 1
+$ignorez 1
+}

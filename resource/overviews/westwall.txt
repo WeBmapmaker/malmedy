@@ -1,0 +1,9 @@
+<westwall>
+{
+	material	overviews/westwall	
+	pos_x		-8484			
+	pos_y		3244			
+	scale		15.0 			
+	rotate		0		
+	zoom		1.0			
+}
