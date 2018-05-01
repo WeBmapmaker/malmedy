@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "61"
+	"mapversion" "66"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "61"
+	"mapversion" "722"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1065,7 +1065,7 @@ world
 		"id" "9978"
 		side
 		{
-			"id" "1757"
+			"id" "1924"
 			"plane" "(48 64 190.166) (176 64 190.166) (176 -64 190.166)"
 			"material" "MAPS/TERRAIN/BLEND_AF_SNOWCLEANTOSOLID"
 			"uaxis" "[1 0 0 64] 0.25"
@@ -1231,7 +1231,7 @@ world
 		}
 		side
 		{
-			"id" "1758"
+			"id" "1923"
 			"plane" "(48 -64 189.166) (176 -64 189.166) (176 64 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1242,7 +1242,7 @@ world
 		}
 		side
 		{
-			"id" "1759"
+			"id" "1922"
 			"plane" "(48 64 190.166) (48 -64 190.166) (48 -64 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -1253,7 +1253,7 @@ world
 		}
 		side
 		{
-			"id" "1760"
+			"id" "1921"
 			"plane" "(176 64 189.166) (176 -64 189.166) (176 -64 190.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
@@ -1264,7 +1264,7 @@ world
 		}
 		side
 		{
-			"id" "1761"
+			"id" "1920"
 			"plane" "(176 64 190.166) (48 64 190.166) (48 64 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1275,7 +1275,7 @@ world
 		}
 		side
 		{
-			"id" "1762"
+			"id" "1919"
 			"plane" "(176 -64 189.166) (48 -64 189.166) (48 -64 190.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1296,7 +1296,7 @@ world
 		"id" "10038"
 		side
 		{
-			"id" "1774"
+			"id" "1918"
 			"plane" "(32 -32 190.166) (32 -160 190.166) (-96 -160 190.166)"
 			"material" "MAPS/TERRAIN/BLEND_AF_SNOWCLEANTOSOLID"
 			"uaxis" "[0 -1 0 128] 0.25"
@@ -1462,7 +1462,7 @@ world
 		}
 		side
 		{
-			"id" "1773"
+			"id" "1917"
 			"plane" "(-96 -32 189.166) (-96 -160 189.166) (32 -160 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -1473,7 +1473,7 @@ world
 		}
 		side
 		{
-			"id" "1772"
+			"id" "1916"
 			"plane" "(32 -32 190.166) (-96 -32 190.166) (-96 -32 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1484,7 +1484,7 @@ world
 		}
 		side
 		{
-			"id" "1771"
+			"id" "1915"
 			"plane" "(32 -160 189.166) (-96 -160 189.166) (-96 -160 190.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -1495,7 +1495,7 @@ world
 		}
 		side
 		{
-			"id" "1770"
+			"id" "1914"
 			"plane" "(32 -160 190.166) (32 -32 190.166) (32 -32 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -1506,7 +1506,7 @@ world
 		}
 		side
 		{
-			"id" "1769"
+			"id" "1913"
 			"plane" "(-96 -160 189.166) (-96 -32 189.166) (-96 -32 190.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -1527,7 +1527,7 @@ world
 		"id" "10041"
 		side
 		{
-			"id" "1786"
+			"id" "1930"
 			"plane" "(16 64.0001 190.166) (-112 64.0001 190.166) (-112 192 190.166)"
 			"material" "MAPS/TERRAIN/BLEND_AF_SNOWCLEANTOSOLID"
 			"uaxis" "[-1 0 0 -704] 0.25"
@@ -1693,7 +1693,7 @@ world
 		}
 		side
 		{
-			"id" "1785"
+			"id" "1929"
 			"plane" "(16 192 189.166) (-112 192 189.166) (-112 64.0001 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
@@ -1704,7 +1704,7 @@ world
 		}
 		side
 		{
-			"id" "1784"
+			"id" "1928"
 			"plane" "(16 64.0001 190.166) (16 192 190.166) (16 192 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -1715,7 +1715,7 @@ world
 		}
 		side
 		{
-			"id" "1783"
+			"id" "1927"
 			"plane" "(-112 64.0001 189.166) (-112 192 189.166) (-112 192 190.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
@@ -1726,7 +1726,7 @@ world
 		}
 		side
 		{
-			"id" "1782"
+			"id" "1926"
 			"plane" "(-112 64.0001 190.166) (16 64.0001 190.166) (16 64.0001 189.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
@@ -1737,7 +1737,7 @@ world
 		}
 		side
 		{
-			"id" "1781"
+			"id" "1925"
 			"plane" "(-112 192 189.166) (16 192 189.166) (16 192 190.166)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
@@ -18550,69 +18550,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 12000]"
-	}
-}
-entity
-{
-	"id" "8378"
-	"classname" "prop_static"
-	"angles" "-1 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_fortifications/dragonsteeth_small_snow.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-43.5432 143.343 192.424"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 12500]"
-	}
-}
-entity
-{
-	"id" "9962"
-	"classname" "prop_static"
-	"angles" "-1 0 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_fortifications/dragonsteeth_small_snow.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "-32 -96 192.424"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 12500]"
-	}
-}
-entity
-{
-	"id" "9966"
-	"classname" "prop_static"
-	"angles" "-1 180 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_fortifications/dragonsteeth_small_snow.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "102 -1.12354 189.545"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 12500]"
 	}
 }
 entity

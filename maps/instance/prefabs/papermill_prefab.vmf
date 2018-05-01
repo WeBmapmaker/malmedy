@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "119"
+	"mapversion" "120"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "119"
+	"mapversion" "120"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34423,27 +34423,6 @@ entity
 }
 entity
 {
-	"id" "9845"
-	"classname" "prop_static"
-	"angles" "90 90 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/static_pipes/pipeset_128.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "1"
-	"solid" "6"
-	"origin" "0 443 296"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -10268]"
-	}
-}
-entity
-{
 	"id" "9849"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -34454,7 +34433,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-88 443 296"
+	"origin" "40 444 296"
 	editor
 	{
 		"color" "255 255 0"
@@ -34475,7 +34454,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-273 437 80"
+	"origin" "-308 436 80"
 	editor
 	{
 		"color" "255 255 0"
@@ -34496,7 +34475,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-273 437 168"
+	"origin" "-308 436 168"
 	editor
 	{
 		"color" "255 255 0"
@@ -34517,7 +34496,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-217 437 168"
+	"origin" "-252 436 168"
 	editor
 	{
 		"color" "255 255 0"
@@ -34538,7 +34517,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-161 437 168"
+	"origin" "-196 436 168"
 	editor
 	{
 		"color" "255 255 0"
@@ -34559,7 +34538,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-161 437 256"
+	"origin" "-196 436 256"
 	editor
 	{
 		"color" "255 255 0"
@@ -34580,7 +34559,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "1"
 	"solid" "6"
-	"origin" "-161 437 344"
+	"origin" "-196 436 344"
 	editor
 	{
 		"color" "255 255 0"
@@ -34779,7 +34758,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "0 -1 0"
-	"BasisOrigin" "-160 447 320"
+	"BasisOrigin" "-196 448 320"
 	"BasisU" "1 0 0"
 	"BasisV" "-0 0 1"
 	"EndU" "1"
@@ -34793,7 +34772,7 @@ entity
 	"uv1" "-16 32 0"
 	"uv2" "16 32 0"
 	"uv3" "16 -32 0"
-	"origin" "-160 447 320"
+	"origin" "-196 448 320"
 	editor
 	{
 		"color" "80 150 225"

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "21"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "21"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -25945,6 +25945,25 @@ world
 }
 entity
 {
+	"id" "12096"
+	"classname" "env_fire"
+	"damagescale" "1.0"
+	"fireattack" "4"
+	"firesize" "64"
+	"health" "30"
+	"ignitionpoint" "32"
+	"spawnflags" "13"
+	"origin" "-164.352 -144.93 -180.658"
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "10705"
 	"classname" "light"
 	"_fifty_percent_distance" "100"
@@ -30072,29 +30091,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -10768]"
-	}
-}
-entity
-{
-	"id" "3121"
-	"classname" "info_particle_system"
-	"angles" "90 45.5 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "fire_small_03"
-	"start_active" "1"
-	"origin" "-168.843 -144.87 -174.355"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
 entity
