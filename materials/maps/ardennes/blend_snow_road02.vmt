@@ -1,0 +1,31 @@
+WorldGGX
+{
+	$basetexture "foy/ground/road02"
+	$bumpmap "foy/ground/road02_n"
+	$surfaceprop Gravel
+
+	$basetexture2 "maps/terrain/doi_terrain_snow_a"
+	$bumpmap2 "maps/terrain/doi_terrain_snow_a_norm"
+	$surfaceprop2 Snow
+
+	"$detail2"             		  "nature/hr_c/hr_grass_001_detail"
+	"$detailscale2"      	                  ".15"
+	"$detailblendfactor2"  	  "1.0"
+	"$surfaceprop2"                        "grass"
+    
+    $blendmodulatetexture "foy/ground/ground_tilec_blendmp_diffuse"
+
+	$envmap "env_cubemap"
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[0.75 0.75 0.75]"
+	$envmapcontrast 0.5
+	$envmapsaturation 0.5
+
+	%keywords "doi, mud, blend, dog red"
+
+	$envmapsphere 1
+	$heightblend 0
+	$parallax 0
+	$roughnessmultiplier 0.7
+	$selfshadow 0
+}
