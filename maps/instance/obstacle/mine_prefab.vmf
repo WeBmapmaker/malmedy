@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -354,7 +354,7 @@ entity
 	"DamagedSkin" "1"
 	"disableflashlight" "0"
 	"disableshadowdepth" "0"
-	"disableshadows" "0"
+	"disableshadows" "1"
 	"drawinfastreflection" "0"
 	"ExplosiveParticle" "doi_flak88_explosion"
 	"ExplosiveSound" "dynamic/flak88_explode_close.wav"
@@ -368,11 +368,11 @@ entity
 	"targetname" "tellermine"
 	connections
 	{
-		"OnIgnite" "tellermine2_triggerKill0.11"
-		"OnIgnite" "hurt_mine2Kill11"
-		"OnIgnite" "hurt_mine2Enable0.011"
-		"OnIgnite" "tellermine2Kill21"
-		"OnIgnite" "hurt_mine2Disable0.51"
+		"OnIgnite" "tellermine_triggerKill0.11"
+		"OnIgnite" "hurt_mineKill11"
+		"OnIgnite" "hurt_mineEnable0.011"
+		"OnIgnite" "tellermineKill21"
+		"OnIgnite" "hurt_mineDisable0.51"
 	}
 	editor
 	{
