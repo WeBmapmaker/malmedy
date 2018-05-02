@@ -1,0 +1,161 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7690"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "ramadisky"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"timeofday" "5"
+}
+entity
+{
+	"id" "2"
+	"classname" "trigger_hurt"
+	"damage" "20"
+	"damagecap" "200"
+	"damagemodel" "0"
+	"damagetype" "4"
+	"nodmgforce" "0"
+	"origin" "-11.85 664.75 7.43"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnStartTouch" "CL_CommandCommandplaygamesound World.Generic.BarbedWireStress0-1"
+	}
+	solid
+	{
+		"id" "60"
+		side
+		{
+			"id" "30"
+			"plane" "(-16.0019 -80 0) (16.0039 -80 0) (16 -80 -37.5703)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -60.3081] 0.5"
+			"vaxis" "[0 0 -1 -31.1414] 0.5"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(16 -80 -37.5703) (16 80 -37.5707) (-16 80 -37.5707)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -62.5018] 0.5"
+			"vaxis" "[-1 0 0 60.3081] 0.5"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-16.0019 -80 0) (-15.9981 80 0) (15.9961 79.9995 -0.0440483)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 -62.5018] 0.5"
+			"vaxis" "[-1 0 0 60.3081] 0.5"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(16.0039 -80 0) (15.9961 79.9995 -0.0440483) (16 80 -37.5707)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0.0202 -1 0 -60.2034] 0.4999"
+			"vaxis" "[0 0 -1 -31.1414] 0.5"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-16 80 -37.5707) (-15.9981 80 0) (-16.0019 -80 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0.0202 -1 0 -60.2034] 0.4999"
+			"vaxis" "[0 0 -1 -31.1414] 0.5"
+			"rotation" "0"
+			"lightmapscale" "64"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(15.9961 79.9995 -0.0440483) (-15.9981 80 0) (-16 80 -37.5707)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 -44.3891] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[2500 7500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/fortifications/barbed_wire_02.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 -44.3757"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[15000 8000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

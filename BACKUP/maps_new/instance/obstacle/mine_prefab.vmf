@@ -1,0 +1,392 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7690"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "2"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "ramadisky"
+	"timeofday" "5"
+}
+entity
+{
+	"id" "2"
+	"classname" "trigger_hurt"
+	"damage" "400"
+	"damagecap" "600"
+	"damagemodel" "0"
+	"damagetype" "8"
+	"nodmgforce" "0"
+	"origin" "37.73 -0.4 70"
+	"spawnflags" "4097"
+	"StartDisabled" "1"
+	"targetname" "hurt_mine"
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "1"
+			"plane" "(-63.9983 -70.001 140) (-63.9983 -70.001 0) (-63.9983 70.002 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.1582 0.9874 0 1.61212] 0.2496"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(73.9985 70.0015 140) (73.9985 70.0015 0) (73.9985 -70.001 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.1582 0.9874 0 31.7854] 0.1598"
+			"vaxis" "[0 0 -1 44.75] 0.16"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(73.9993 -69.9976 140) (73.9993 -69.9976 0) (-64 -69.9976 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0.0076 0 -19.4723] 0.2498"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-64 70.0024 140) (-64 70.0024 0) (73.9993 70.0024 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0.0076 0 12.9657] 0.1599"
+			"vaxis" "[0 0 -1 44.75] 0.16"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-64 70.001 0) (-64 -69.999 0) (73.9993 -70.0029 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-0.035 1 0 41.5624] 0.2496"
+			"vaxis" "[-1 -0.0348 0 -11.1652] 0.2496"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-64 -70.0029 140) (-64 70.0024 140) (73.9993 70.001 140)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 -0.0348 0 -11.1652] 0.2496"
+			"vaxis" "[-0.035 1 0 57.5624] 0.2496"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7768]"
+	}
+}
+entity
+{
+	"id" "5"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "0 -0.01 2"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "0"
+	"spawnflags" "768"
+	"speed" "5"
+	"targetname" "tellermine_shootable"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "3"
+	connections
+	{
+		"OnDamaged" "tellermineExplode0.011"
+		"OnDamaged" "tellermineKill21"
+		"OnDamaged" "tellermine_triggerKill0.11"
+		"OnDamaged" "hurt_mineEnable0.011"
+		"OnDamaged" "hurt_mineKill11"
+		"OnDamaged" "tellermine_shootableKill21"
+	}
+	solid
+	{
+		"id" "6"
+		side
+		{
+			"id" "24"
+			"plane" "(-9.9982 -9.99805 4) (-9.9982 -9.99805 0.00117173) (-9.9982 9.99951 -0.000781775)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0.240234] 0.25"
+			"vaxis" "[0 0 -1 15.5938] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(10 9.99902 4) (10 9.99902 0.00117173) (10 -9.99805 -0.000781775)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0.240234] 0.25"
+			"vaxis" "[0 0 -1 15.5938] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(9.99897 -9.99463 4) (9.99897 -9.99463 0.00117173) (-10 -9.99463 -0.000781775)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -39.9531] 0.25"
+			"vaxis" "[0 0 -1 -4.40625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-10 10 4) (-10 10 0.00117173) (9.99923 10 -0.000781775)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 39.9531] 0.25"
+			"vaxis" "[0 0 -1 -4.40625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-10 9.99854 -0.00156394) (-10 -9.99609 -0.00156394) (9.99897 -10 -0.00156394)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -21.2402] 0.25"
+			"vaxis" "[-1 0 0 -39.9531] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(-10 -10 3.99922) (-10 10 3.99922) (9.99923 9.99854 3.99922)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 21.2402] 0.25"
+			"vaxis" "[-1 0 0 -39.9531] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "trigger_once"
+	"origin" "0 0 2"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"targetname" "tellermine_trigger"
+	connections
+	{
+		"OnStartTouch" "tellermineExplode0.011"
+		"OnStartTouch" "tellermineKill21"
+		"OnStartTouch" "tellermine_triggerKill0.11"
+		"OnStartTouch" "hurt_mineEnable0.011"
+		"OnStartTouch" "hurt_mineKill11"
+	}
+	solid
+	{
+		"id" "9"
+		side
+		{
+			"id" "30"
+			"plane" "(-8 7.99957 -2) (8 7.99957 -2) (7.99848 7.99957 6)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 27.96] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(7.99848 8 -2) (-8 8 -2) (-8 -7.9987 -2)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 27.96] 0.25"
+			"vaxis" "[0 -1 0 -56.2344] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-8 -8 6) (-8 8 6) (8 8 6)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 27.96] 0.25"
+			"vaxis" "[0 -1 0 -56.2344] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-7.99848 -8 -2) (-7.99848 8 -2) (-7.99848 8 6)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 56.2344] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(8 8 6) (8 8 -2) (8 -7.9987 -2)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 56.2344] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(7.99848 -7.9987 -2) (-8 -7.9987 -2) (-8 -7.9987 6)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 27.96] 0.25"
+			"vaxis" "[0 0 -1 -4] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
+	}
+}
+entity
+{
+	"id" "11"
+	"classname" "prop_explosive"
+	"angles" "0 84.5 0"
+	"AreaDamageAmount" "400"
+	"AreaDamageFrequency" "0.6"
+	"AreaDamagePhysicsForce" "200"
+	"AreaDamageRange" "150"
+	"AreaDamageTime" "1.0"
+	"CanBeDamaged" "1"
+	"DamagedSkin" "1"
+	"disableflashlight" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"ExplosiveParticle" "doi_flak88_explosion"
+	"ExplosiveSound" "dynamic/flak88_explode_close.wav"
+	"InitialHealth" "5"
+	"model" "models/diamond/tellermine_small_phys.mdl"
+	"modelscale" "1.0"
+	"origin" "0 -0 0"
+	"shadowdepthnocache" "0"
+	"ShouldDoAreaDamage" "1"
+	"skin" "1"
+	"targetname" "tellermine"
+	connections
+	{
+		"OnIgnite" "tellermine2_triggerKill0.11"
+		"OnIgnite" "hurt_mine2Kill11"
+		"OnIgnite" "hurt_mine2Enable0.011"
+		"OnIgnite" "tellermine2Kill21"
+		"OnIgnite" "hurt_mine2Disable0.51"
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -7268]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
