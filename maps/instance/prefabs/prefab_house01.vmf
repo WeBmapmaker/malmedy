@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "51"
+	"mapversion" "52"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "51"
+	"mapversion" "52"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4660,16 +4660,16 @@ entity
 {
 	"id" "4444"
 	"classname" "light"
-	"_constant_attn" "1"
+	"_constant_attn" "100"
 	"_distance" "0"
-	"_fifty_percent_distance" "42"
+	"_fifty_percent_distance" "96"
 	"_hardfalloff" "0"
 	"_light" "255 255 255 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "0"
-	"_zero_percent_distance" "192"
+	"_zero_percent_distance" "256"
 	"spawnflags" "0"
 	"style" "0"
 	"origin" "141.076 -48 264"
@@ -4679,6 +4679,7 @@ entity
 		"groupid" "4522"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
+		"comments" " "
 		"logicalpos" "[0 6500]"
 	}
 }
@@ -4686,16 +4687,16 @@ entity
 {
 	"id" "4524"
 	"classname" "light"
-	"_constant_attn" "1"
+	"_constant_attn" "100"
 	"_distance" "0"
-	"_fifty_percent_distance" "42"
+	"_fifty_percent_distance" "96"
 	"_hardfalloff" "0"
 	"_light" "255 255 255 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "0"
-	"_zero_percent_distance" "192"
+	"_zero_percent_distance" "256"
 	"spawnflags" "0"
 	"style" "0"
 	"origin" "-74.9238 -48 264"
@@ -4705,6 +4706,7 @@ entity
 		"groupid" "4523"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
+		"comments" " "
 		"logicalpos" "[0 6500]"
 	}
 }
@@ -4734,16 +4736,16 @@ entity
 {
 	"id" "4558"
 	"classname" "light"
-	"_constant_attn" "1"
+	"_constant_attn" "100"
 	"_distance" "0"
-	"_fifty_percent_distance" "42"
+	"_fifty_percent_distance" "96"
 	"_hardfalloff" "0"
 	"_light" "255 255 255 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "0"
-	"_zero_percent_distance" "192"
+	"_zero_percent_distance" "256"
 	"spawnflags" "0"
 	"style" "0"
 	"origin" "-90.7907 -24 135.737"
@@ -4753,6 +4755,7 @@ entity
 		"groupid" "4557"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
+		"comments" " "
 		"logicalpos" "[0 6500]"
 	}
 }
@@ -4782,16 +4785,16 @@ entity
 {
 	"id" "4578"
 	"classname" "light"
-	"_constant_attn" "1"
+	"_constant_attn" "100"
 	"_distance" "0"
-	"_fifty_percent_distance" "42"
+	"_fifty_percent_distance" "96"
 	"_hardfalloff" "0"
 	"_light" "255 255 255 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"_linear_attn" "0"
 	"_quadratic_attn" "0"
-	"_zero_percent_distance" "192"
+	"_zero_percent_distance" "256"
 	"spawnflags" "0"
 	"style" "0"
 	"origin" "141.076 -24 135.737"
@@ -4801,6 +4804,7 @@ entity
 		"groupid" "4577"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
+		"comments" " "
 		"logicalpos" "[0 6500]"
 	}
 }

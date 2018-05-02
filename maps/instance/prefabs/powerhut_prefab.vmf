@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "5"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,42 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "7"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "ramadisky"
 	"timeofday" "5"
+}
+entity
+{
+	"id" "287"
+	"classname" "info_overlay"
+	"angles" "0 0 0"
+	"BasisNormal" "0 -0.503871 0.863779"
+	"BasisOrigin" "0 -28 263.501"
+	"BasisU" "1 0 0"
+	"BasisV" "-0 0.863779 0.503871"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "overlays/debrisdirt005"
+	"sides" "119 122 120 121"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-128 -128 0"
+	"uv1" "-128 128 0"
+	"uv2" "128 128 0"
+	"uv3" "128 -128 0"
+	"origin" "0 -28 263.501"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
 }
 entity
 {
@@ -358,13 +387,15 @@ entity
 	"id" "260"
 	"classname" "prop_static"
 	"angles" "0 269.5 0"
-	"fademindist" "-1"
+	"disableshadows" "1"
+	"fademaxdist" "4500"
+	"fademindist" "4000"
 	"fadescale" "1"
 	"model" "models/props_foliage/urban_vine03.mdl"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-4 -80 -4"
 	editor
 	{
