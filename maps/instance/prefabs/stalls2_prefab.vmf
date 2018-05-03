@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "29"
+	"mapversion" "30"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "30"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -33,10 +33,10 @@ world
 		side
 		{
 			"id" "1353"
-			"plane" "(128 85 196) (144 85 196) (144 47 196)"
+			"plane" "(128 70 196) (128 108 196) (144 108 196)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[-0.979163 -0.00854507 -0.202895 -1.33862] 0.25"
-			"vaxis" "[-0.00872657 1 0 6.88701] 0.25"
+			"uaxis" "[-0.979163 -0.00854507 -0.202895 -0.552473] 0.25"
+			"vaxis" "[-0.00872657 1 0 -21.113] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -44,10 +44,10 @@ world
 		side
 		{
 			"id" "1352"
-			"plane" "(128 47 -3.00001) (144 47 -3.00001) (144 85 -3.00001)"
+			"plane" "(128 108 -3) (128 70 -3) (144 70 -3)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[-0.979163 -0.00854507 -0.202895 -1.33862] 0.25"
-			"vaxis" "[-0.00872657 1 0 6.88701] 0.25"
+			"uaxis" "[-0.979163 -0.00854507 -0.202895 -0.552473] 0.25"
+			"vaxis" "[-0.00872657 1 0 -21.113] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -55,10 +55,10 @@ world
 		side
 		{
 			"id" "1351"
-			"plane" "(144 47 -3.00001) (144 47 196) (144 85 196)"
+			"plane" "(144 108 -3) (144 70 -3) (144 70 196)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[0.00997311 -1 0 -6.88701] 0.25"
-			"vaxis" "[0.186146 0.00142141 -0.982521 17.0671] 0.25"
+			"uaxis" "[0.00997311 -1 0 21.113] 0.25"
+			"vaxis" "[0.186146 0.00142141 -0.982521 16.9363] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -66,10 +66,10 @@ world
 		side
 		{
 			"id" "1350"
-			"plane" "(128 85 -3.00001) (128 85 196) (128 47 196)"
+			"plane" "(128 70 -3) (128 108 -3) (128 108 196)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[0.00997311 -1 0 -6.88701] 0.25"
-			"vaxis" "[0.186146 0.00142141 -0.982521 17.0671] 0.25"
+			"uaxis" "[0.00997311 -1 0 21.113] 0.25"
+			"vaxis" "[0.186146 0.00142141 -0.982521 16.9363] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -77,10 +77,10 @@ world
 		side
 		{
 			"id" "1349"
-			"plane" "(128 47 -3.00001) (128 47 196) (144 47 196)"
+			"plane" "(144 70 -3) (128 70 -3) (128 70 196)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[-0.983217 -0.00858045 -0.182236 -1.42125] 0.25"
-			"vaxis" "[0.182229 0.00159029 -0.983255 17.0701] 0.25"
+			"uaxis" "[-0.983217 -0.00858045 -0.182236 -0.631849] 0.25"
+			"vaxis" "[0.182229 0.00159029 -0.983255 16.9238] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -88,10 +88,10 @@ world
 		side
 		{
 			"id" "1348"
-			"plane" "(144 85 -3.00001) (144 85 196) (128 85 196)"
+			"plane" "(128 108 -3) (144 108 -3) (144 108 196)"
 			"material" "TOOLS/TOOLSINVISIBLELADDER"
-			"uaxis" "[-0.983217 -0.00858045 -0.182236 -1.42125] 0.25"
-			"vaxis" "[0.182229 0.00159029 -0.983255 17.0701] 0.25"
+			"uaxis" "[-0.983217 -0.00858045 -0.182236 -0.631849] 0.25"
+			"vaxis" "[0.182229 0.00159029 -0.983255 16.9238] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -2491,7 +2491,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "128 67 111"
+	"origin" "128 90 111"
 	editor
 	{
 		"color" "255 255 0"
@@ -2513,7 +2513,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "128 67 -54"
+	"origin" "128 90 -54"
 	editor
 	{
 		"color" "255 255 0"
@@ -4587,37 +4587,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-12268 -11768]"
-	}
-}
-entity
-{
-	"id" "2376"
-	"classname" "prop_static"
-	"angles" "-1.49994 270.5 -0.0130925"
-	"disableselfshadowing" "0"
-	"disablevertexlighting" "0"
-	"disableX360" "0"
-	"fademaxdist" "2000"
-	"fademindist" "2000"
-	"fadescale" "1"
-	"ignorenormals" "0"
-	"maxcpulevel" "0"
-	"maxgpulevel" "0"
-	"mincpulevel" "0"
-	"mingpulevel" "0"
-	"model" "models/italy/prop_woodplanks_176.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "6"
-	"origin" "176 8 192"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -11268]"
 	}
 }
 entity
