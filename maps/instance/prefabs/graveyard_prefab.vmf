@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7690"
-	"mapversion" "39"
+	"mapversion" "40"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "39"
+	"mapversion" "40"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4968,9 +4968,9 @@ world
 					"row0" "0 0 0 0 0 0 0 0 0"
 					"row1" "0 0 0 0 0 0 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 250 0 0 75 205 0 0"
-					"row4" "0 0 255 0 0 230 255 0 0"
-					"row5" "0 0 255 0 255 100 255 0 0"
+					"row3" "0 0 0 0 0 0 0 0 0"
+					"row4" "0 0 0 0 0 55 0 0 0"
+					"row5" "0 0 155 0 255 100 0 0 0"
 					"row6" "0 0 0 0 0 0 25 0 0"
 					"row7" "0 0 0 0 0 0 0 0 0"
 					"row8" "0 0 0 0 0 0 0 0 0"
@@ -6217,7 +6217,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "935.093 686.73 60"
+	"origin" "935.093 686.73 68"
 	editor
 	{
 		"color" "255 255 0"
@@ -6238,7 +6238,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
-	"origin" "796 724 60"
+	"origin" "796 724 68"
 	editor
 	{
 		"color" "255 255 0"
@@ -6419,48 +6419,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -12268]"
-	}
-}
-entity
-{
-	"id" "1048"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/gravestone_coffinpiece001a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "1276 658 92.8256"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7268]"
-	}
-}
-entity
-{
-	"id" "1076"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_c17/gravestone_coffinpiece002a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"skin" "0"
-	"solid" "6"
-	"origin" "1535.79 658 92.8256"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 -7268]"
 	}
 }
 entity
